@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  background-color: #213251;
+  --title-color: #252525;
+  --accent-color: #F97316;
+  --subtitle-color: #FFF;
+  --light-paragraph-color: #fafafa;
+  --normal-paragraph-color: #3d3d3d;
+}
+
+/* TYPOGRAPHY */
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+p {
+  font-size: 1em;
+}
+
+
+li {
+  list-style-type: none;
+}
