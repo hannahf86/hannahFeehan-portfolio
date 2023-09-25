@@ -8,13 +8,18 @@ import js from '@/app/Assets/icons/js.png'
 import json from '@/app/Assets/icons/JSON.png'
 import php from '@/app/Assets/icons/PHP.png'
 import mysql from '@/app/Assets/icons/mysql.png'
+import jquery from '@/app/Assets/icons/jquery.png'
 import node from '@/app/Assets/icons/NodeJs.png'
 import bootstrap from '@/app/Assets/icons/Bootstrap.png'
 import tailwind from '@/app/Assets/icons/Tailwind.png'
 import react from '@/app/Assets/icons/React.png'
 import adobe from '@/app/Assets/icons/Adobe.png'
 import zeplin from '@/app/Assets/icons/Zeplin.png'
-
+import figma from '@/app/Assets/icons/figma.png'
+import python from '@/app/Assets/icons/python.png'
+import cSharp from '@/app/Assets/icons/c-sharp.png'
+import next from '@/app/Assets/icons/next.png'
+import vite from '@/app/Assets/icons/vite.png'
 
 const Skills: React.FC = () => {
 
@@ -41,9 +46,9 @@ const Skills: React.FC = () => {
     return (
         <div id='skills' className='bg-[#213251] w-full'>
             <h1 className={styles.title}>SKILLS</h1>
-            <p className={styles.description}>Below is a list of the main languages, frameworks, <br />databases and others I work in.</p>
+            <p className={styles.description}>Below is a list of the main languages, frameworks, <br />databases, and others, that I work in.</p>
 
-            {/* TO ADD >> jsx, next.js, vite, postgres, c#, python, jquery, figma */}
+            {/* TO ADD >> jsx, next.js, vite, postgres,  */}
 
 
             {/* MOBILE DESIGN */}
@@ -57,6 +62,9 @@ const Skills: React.FC = () => {
                     <div className='col-start-1'><Image src={json} alt='html logo' width={80} /></div>
                     <div className='col-start-2'><Image src={php} alt='html logo' width={80} /></div>
                     <div className='col-start-3'><Image src={mysql} alt='html logo' width={80} /></div>
+
+                    <div className='col-start-1'><Image src={python} alt='python logo' width={80} /></div>
+                    <div className='col-start-2'><Image src={cSharp} alt='c sharp logo' width={80} /></div>
                 </div>
 
                 <h2 className={styles.skillTitle}>Frameworks, Libraries & Others</h2>
@@ -66,12 +74,17 @@ const Skills: React.FC = () => {
                     <div className='col-start-3'><Image src={tailwind} alt='html logo' width={80} /></div>
 
                     <div className='col-start-1'><Image src={react} alt='html logo' width={80} /></div>
+                    <div className='col-start-2'><Image src={jquery} alt='html logo' width={80} /></div>
+                    <div className='col-start-3'><Image src={next} alt='next.js 13 logo' width={80} /></div>
+
+                    <div className='col-start-1'><Image src={vite} alt='vite logo' width={80} /></div>
                 </div>
 
                 <h2 className={styles.skillTitle}>Design Tools</h2>
                 <div className={styles.languagesContainer}>
                     <div className='col-start-1'><Image src={adobe} alt='html logo' width={80} /></div>
                     <div className='col-start-2'><Image src={zeplin} alt='html logo' width={80} /></div>
+                    <div className='col-start-3'><Image src={figma} alt='html logo' width={80} /></div>
                 </div>
             </div>
 
@@ -86,6 +99,9 @@ const Skills: React.FC = () => {
                     <div className='col-start-1'><Image src={json} alt='html logo' width={120} /></div>
                     <div className='col-start-2'><Image src={php} alt='html logo' width={120} /></div>
                     <div className='col-start-3'><Image src={mysql} alt='html logo' width={120} /></div>
+
+                    <div className='col-start-1'><Image src={python} alt='python logo' width={120} /></div>
+                    <div className='col-start-2'><Image src={cSharp} alt='c sharp logo' width={120} /></div>
                 </div>
 
                 <h2 className={tabletStyles.skillTitle}>Frameworks, Libraries & Others</h2>
@@ -95,12 +111,17 @@ const Skills: React.FC = () => {
                     <div className='col-start-3'><Image src={tailwind} alt='html logo' width={120} /></div>
 
                     <div className='col-start-1'><Image src={react} alt='html logo' width={120} /></div>
+                    <div className='col-start-2'><Image src={jquery} alt='html logo' width={120} /></div>
+                    <div className='col-start-3'><Image src={next} alt='next.js 13 logo' width={120} /></div>
+
+                    <div className='col-start-1'><Image src={vite} alt='vite logo' width={120} /></div>
                 </div>
 
                 <h2 className={tabletStyles.skillTitle}>Design Tools</h2>
                 <div className={tabletStyles.languagesContainer}>
                     <div className='col-start-1'><Image src={adobe} alt='html logo' width={120} /></div>
                     <div className='col-start-2'><Image src={zeplin} alt='html logo' width={120} /></div>
+                    <div className='col-start-3'><Image src={figma} alt='html logo' width={120} /></div>
                 </div>
             </div>
 
@@ -110,12 +131,14 @@ const Skills: React.FC = () => {
                 <h2 className={desktopStyles.skillTitle}>Languages</h2>
                 <div className={desktopStyles.languagesContainer}>
                     <div className='col-start-1'><Image src={html} alt='html logo' width={130} /></div>
-                    <div className='col-start-2'><Image src={css} alt='html logo' width={130} /></div>
-                    <div className='col-start-3'><Image src={js} alt='html logo' width={130} /></div>
-                    <div className='col-start-4'><Image src={json} alt='html logo' width={130} /></div>
+                    <div className='col-start-2'><Image src={css} alt='css logo' width={130} /></div>
+                    <div className='col-start-3'><Image src={js} alt='js logo' width={130} /></div>
+                    <div className='col-start-4'><Image src={json} alt='json logo' width={130} /></div>
 
-                    <div className='col-start-1'><Image src={php} alt='html logo' width={130} /></div>
-                    <div className='col-start-2'><Image src={mysql} alt='html logo' width={130} /></div>
+                    <div className='col-start-1'><Image src={php} alt='php logo' width={130} /></div>
+                    <div className='col-start-2'><Image src={mysql} alt='mysql logo logo' width={130} /></div>
+                    <div className='col-start-3'><Image src={python} alt='python logo' width={130} /></div>
+                    <div className='col-start-4'><Image src={cSharp} alt='c sharp logo' width={130} /></div>
                 </div>
 
                 <h2 className={desktopStyles.skillTitle}>Frameworks, Libraries & Others</h2>
@@ -124,12 +147,18 @@ const Skills: React.FC = () => {
                     <div className='col-start-2'><Image src={bootstrap} alt='html logo' width={130} /></div>
                     <div className='col-start-3'><Image src={tailwind} alt='html logo' width={130} /></div>
                     <div className='col-start-4'><Image src={react} alt='html logo' width={130} /></div>
+
+                    <div className='col-start-1'><Image src={jquery} alt='html logo' width={130} /></div>
+                    <div className='col-start-2'><Image src={next} alt='next.js 13 logo' width={130} /></div>
+                    <div className='col-start-3'><Image src={vite} alt='vite logo' width={130} /></div>
                 </div>
 
                 <h2 className={desktopStyles.skillTitle}>Design Tools</h2>
                 <div className={desktopStyles.languagesContainer}>
                     <div className='col-start-1'><Image src={adobe} alt='html logo' width={130} /></div>
                     <div className='col-start-2'><Image src={zeplin} alt='html logo' width={130} /></div>
+                    <div className='col-start-3'><Image src={figma} alt='html logo' width={130} /></div>
+
                 </div>
             </div>
 
