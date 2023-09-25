@@ -22,7 +22,7 @@ const Landing: React.FC = () => {
     const tabletStyles = {
         tabletTop: 'hidden lg:hidden sm:hidden md:block',
         textContainerDt: 'px-20',
-        subtitleDt: 'pt-36 pb-4 text-[#FFF] text-3xl',
+        subtitleDt: 'pt-28 pb-4 text-[#FFF] text-3xl',
         titleDt: 'pb-6 text-[#F97316] text-7xl',
         descriptionDt: 'text-[#FFF] pb-24 leading-8 pb-20 text-xl',
         profilePicContainer: 'w-72',
