@@ -7,6 +7,7 @@ import Landing from './Scenes/Landing/page'
 import MobileNav from './Components/MobileNav/page'
 import DesktopNav from './Components/DesktopNav/page'
 import Projects from './Scenes/Projects/page'
+import Skills from './Scenes/Skills/page'
 
 export default function Home() {
 
@@ -25,6 +26,7 @@ export default function Home() {
 
       <Landing />
       <Projects />
+      <Skills />
     </>
   )
 }
