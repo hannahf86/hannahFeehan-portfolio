@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 
 // IMAGES
-import profilePic from '@/app/assets/profilePic.png'
+import profilePic from '@app/Assets/profilePic.png'
 
 // ICONS
 import { HiChevronDoubleDown } from 'react-icons/hi'
