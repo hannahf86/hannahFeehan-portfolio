@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 
 // IMAGES
-import hannah from '@app/Assets/profilePic.png'
+import hannah from '@/app/Assets/profilePic.png';
 
 
 // ICONS
