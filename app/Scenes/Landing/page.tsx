@@ -58,7 +58,7 @@ const Landing: React.FC = () => {
                         <p className='mb-4'>SEE MORE</p>
                         <HiChevronDoubleDown />
                     </Link>
-                    <div className='mb-20'></div>
+                    <div className='mb-40'></div>
                 </div>
             </div>
 

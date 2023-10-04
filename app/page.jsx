@@ -11,18 +11,6 @@ import Contact from './Scenes/Contact/page'
 
 export default function Home() {
 
-  // if (typeof window !== "undefined") {
-  //   // browser code
-  // }
-
-  // const [width, setWidth] = useState(window.innerWidth)
-  // const breakpoint = 1024;
-
-  // useEffect(() => {
-  //   window.addEventListener('resize', () => setWidth(window.innerWidth));
-  // }, []);
-
-
   return (
     <>
       <Nav />
