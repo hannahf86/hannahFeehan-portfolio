@@ -8,6 +8,7 @@ import MobileNav from './Components/MobileNav/page'
 import DesktopNav from './Components/DesktopNav/page'
 import Projects from './Scenes/Projects/page'
 import Skills from './Scenes/Skills/page'
+import Contact from './Scenes/Contact/page'
 
 export default function Home() {
 
@@ -27,6 +28,7 @@ export default function Home() {
       <Landing />
       <Projects />
       <Skills />
+      <Contact />
     </>
   )
 }

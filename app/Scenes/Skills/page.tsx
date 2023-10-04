@@ -28,7 +28,7 @@ const Skills: React.FC = () => {
     const styles = {
         mobile: 'lg:hidden md:hidden',
         title: 'text-center text-4xl md:text-5xl lg:text-5xl pt-12 lg:pt-44 md:pt-16 py-8 text-white',
-        description: 'text-white text-center text-md md:text-lg mx-16 mb-8 md:mb-16 lg:mb-16',
+        description: 'text-white text-center text-md md:text-lg mx-16 mb-8 md:mb-16 lg:mb-12',
         skillTitle: 'text-2xl text-center font-bold text-[#F97316] mb-8 mt-12',
         languagesContainer: 'mx-auto grid grid-col-3 gap-6 justify-center items-center mb-20',
     }
@@ -40,17 +40,18 @@ const Skills: React.FC = () => {
     }
 
     const desktopStyles = {
+        desktopContainer: 'grid grid-col-3 gap-20',
         desktop: 'hidden md:hidden sm:hidden lg:block mx-16 xl:mx-32 2xl:mx-40',
-        skillTitle: 'text-3xl text-center font-bold text-[#F97316] mb-8 mt-12',
-        languagesContainer: 'mx-auto grid grid-col-4 gap-12 justify-center items-center mb-20',
+        skillTitle: 'text-xl xl:text-xl 2xl:text-3xl text-center font-bold text-[#F97316] mb-8 mt-8',
+        languagesContainer: 'mx-auto grid grid-col-4 gap-4 xl:gap-6 justify-center items-center mb-20',
     }
 
     return (
         <div id='skills' className='bg-[#213251] w-full'>
             <h1 className={styles.title}>SKILLS</h1>
-            <p className={styles.description}>Below is a list of the main languages, frameworks, <br />databases, and others, that I work in.</p>
+            <p className={styles.description}>Below is a list of the main languages, frameworks, databases, and others, that I work in.</p>
 
-            {/* TO ADD >> jsx, postgres */}
+            {/* TO ADD >> postgres, git */}
 
 
             {/* MOBILE DESIGN */}
@@ -136,40 +137,47 @@ const Skills: React.FC = () => {
 
             {/* DESKTOP DESIGN */}
             <div id='desktop' className={desktopStyles.desktop}>
-                <h2 className={desktopStyles.skillTitle}>Languages</h2>
-                <div className={desktopStyles.languagesContainer}>
-                    <div className='col-start-1'><Image src={html} alt='html logo' width={130} /></div>
-                    <div className='col-start-2'><Image src={css} alt='css logo' width={130} /></div>
-                    <div className='col-start-3'><Image src={js} alt='javascript logo' width={130} /></div>
-                    <div className='col-start-4'><Image src={jsx} alt='jsx logo' width={130} /></div>
+                <div className={desktopStyles.desktopContainer}>
+                    <div className='col-start-1'>
+                        <h2 className={desktopStyles.skillTitle}>Languages</h2>
+                        <div className={desktopStyles.languagesContainer}>
+                            <div className='col-start-1'><Image src={html} alt='html logo' width={100} /></div>
+                            <div className='col-start-2'><Image src={css} alt='css logo' width={100} /></div>
+                            <div className='col-start-3'><Image src={js} alt='javascript logo' width={100} /></div>
+                            <div className='col-start-4'><Image src={jsx} alt='jsx logo' width={100} /></div>
 
-                    <div className='col-start-1'><Image src={json} alt='json logo' width={130} /></div>
-                    <div className='col-start-2'><Image src={typescript} alt='typescript logo' width={130} /></div>
-                    <div className='col-start-3'><Image src={mysql} alt='mysql logo logo' width={130} /></div>
-                    <div className='col-start-4'><Image src={php} alt='php logo' width={130} /></div>
+                            <div className='col-start-1'><Image src={json} alt='json logo' width={100} /></div>
+                            <div className='col-start-2'><Image src={typescript} alt='typescript logo' width={100} /></div>
+                            <div className='col-start-3'><Image src={mysql} alt='mysql logo logo' width={100} /></div>
+                            <div className='col-start-4'><Image src={php} alt='php logo' width={100} /></div>
 
-                    <div className='col-start-1'><Image src={cSharp} alt='c sharp logo' width={130} /></div>
-                    <div className='col-start-2'><Image src={python} alt='python logo' width={130} /></div>
-                </div>
+                            <div className='col-start-1'><Image src={cSharp} alt='c sharp logo' width={100} /></div>
+                            <div className='col-start-2'><Image src={python} alt='python logo' width={100} /></div>
+                        </div>
+                    </div>
 
-                <h2 className={desktopStyles.skillTitle}>Frameworks, Libraries & Others</h2>
-                <div className={desktopStyles.languagesContainer}>
-                    <div className='col-start-1'><Image src={node} alt='node.js logo' width={130} /></div>
-                    <div className='col-start-2'><Image src={bootstrap} alt='boostrap logo' width={130} /></div>
-                    <div className='col-start-3'><Image src={tailwind} alt='tailwind logo' width={130} /></div>
-                    <div className='col-start-4'><Image src={react} alt='react logo' width={130} /></div>
+                    <div className='col-start-2'>
+                        <h2 className={desktopStyles.skillTitle}>Frameworks, Libraries & Others</h2>
+                        <div className={desktopStyles.languagesContainer}>
+                            <div className='col-start-1'><Image src={node} alt='node.js logo' width={100} /></div>
+                            <div className='col-start-2'><Image src={bootstrap} alt='boostrap logo' width={100} /></div>
+                            <div className='col-start-3'><Image src={tailwind} alt='tailwind logo' width={100} /></div>
+                            <div className='col-start-4'><Image src={react} alt='react logo' width={100} /></div>
 
-                    <div className='col-start-1'><Image src={jquery} alt='jquery logo' width={130} /></div>
-                    <div className='col-start-2'><Image src={next} alt='next.js 13 logo' width={130} /></div>
-                    <div className='col-start-3'><Image src={vite} alt='vite logo' width={130} /></div>
-                </div>
+                            <div className='col-start-1'><Image src={jquery} alt='jquery logo' width={100} /></div>
+                            <div className='col-start-2'><Image src={next} alt='next.js 13 logo' width={100} /></div>
+                            <div className='col-start-3'><Image src={vite} alt='vite logo' width={100} /></div>
+                        </div>
+                    </div>
 
-                <h2 className={desktopStyles.skillTitle}>Design Tools</h2>
-                <div className={desktopStyles.languagesContainer}>
-                    <div className='col-start-1'><Image src={adobe} alt='adobe creative suite logo' width={130} /></div>
-                    <div className='col-start-2'><Image src={zeplin} alt='zeplin logo' width={130} /></div>
-                    <div className='col-start-3'><Image src={figma} alt='figma logo' width={130} /></div>
-
+                    <div className='col-start-3'>
+                        <h2 className={desktopStyles.skillTitle}>Design Tools</h2>
+                        <div className={desktopStyles.languagesContainer}>
+                            <div className='col-start-1'><Image src={adobe} alt='adobe creative suite logo' width={100} /></div>
+                            <div className='col-start-2'><Image src={zeplin} alt='zeplin logo' width={100} /></div>
+                            <div className='col-start-3'><Image src={figma} alt='figma logo' width={100} /></div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
