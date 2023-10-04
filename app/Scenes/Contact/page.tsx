@@ -1,5 +1,4 @@
-import React, { useRef } from 'react'
-import emailjs from '@emailjs/browser'
+import React from 'react'
 
 const Contact: React.FC = () => {
 
@@ -14,19 +13,6 @@ const Contact: React.FC = () => {
         buttonText: 'font-light tracking-widest',
     }
 
-    const form = useRef();
-
-    const sendEmail = (e) => {
-        e.preventDefault();
-
-        emailjs.sendForm('service_5fshbuj', 'template_hununw4', form.current, 'YMI-A2ta35eLOMgjl')
-            .then((result) => {
-                console.log(result.text);
-                console.log("Success! The pigeon has flown the nest!")
-            }, (error) => {
-                console.log(error.text);
-            });
-    };
 
     return (
         <div id='contact' className={styles.background}>
@@ -35,27 +21,29 @@ const Contact: React.FC = () => {
 
             <div className={styles.formContainer}>
                 <div className='lg:mx-60 md:mx-40'>
-                    <form ref={form} onSubmit={sendEmail} className={styles.form}>
+                    <form className={styles.form} >
                         <input
                             type='text'
                             name='from_name'
                             placeholder='Full Name'
                             className={styles.inputName}
+                            required
                         />
                         <input
                             type='email'
-                            name='from_email'
+                            name='senderEmail'
                             placeholder='Email'
                             className={styles.inputName}
+                            required
                         />
                         <input
                             type='textarea'
                             name='message'
                             placeholder='Enter your message'
                             className={styles.inputMessage}
+                            required
                         />
-
-                        <button type="submit" value='Send' className={styles.button}>
+                        <button type="submit" value='send' className={styles.button}>
                             <h3 className={styles.buttonText}>SEND</h3>
                         </button>
                     </form>
