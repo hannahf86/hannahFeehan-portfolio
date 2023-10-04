@@ -2,7 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 
 // IMAGES
-import profilePic from '@app/Assets/profilePic.png'
+import hannah from '@app/Assets/profilePic.png'
+
 
 // ICONS
 import { HiChevronDoubleDown } from 'react-icons/hi'
@@ -50,7 +51,7 @@ const Landing: React.FC = () => {
                     <h1 className={styles.title}>HANNAH FEEHAN</h1>
 
                     <div id='profilePicContainer' className={styles.profilePicContainer}>
-                        <Image src={profilePic} alt='hannah feehan, manga style' className={styles.profilePic} />
+                        <Image src={hannah} alt='hannah feehan, manga style' className={styles.profilePic} />
                     </div>
                     <p className={styles.description}>I'm a full-stack developer <br />with UI/UX experience to help you with all your digital needs.<br /><br /></p>
 
@@ -72,7 +73,7 @@ const Landing: React.FC = () => {
                 </div>
 
                 <div id='profilePicContainer' className={tabletStyles.profilePicContainer}>
-                    <Image src={profilePic} alt='hannah feehan, manga style' className={tabletStyles.profilePic} />
+                    <Image src={hannah} alt='hannah feehan, manga style' className={tabletStyles.profilePic} />
                 </div>
             </div>
 
@@ -86,7 +87,7 @@ const Landing: React.FC = () => {
                 </div>
 
                 <div id='profilePicContainer' className={desktopStyles.profilePicContainer}>
-                    <Image src={profilePic} alt='hannah feehan, manga style' className={desktopStyles.profilePic} />
+                    <Image src={hannah} alt='hannah feehan, manga style' className={desktopStyles.profilePic} />
                 </div>
             </div>
 
