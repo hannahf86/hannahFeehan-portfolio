@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Maven_Pro } from 'next/font/google'
+import { Toaster } from 'react-hot-toast'
 
 const mavenPro = Maven_Pro({ subsets: ['latin'] })
 
@@ -16,7 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={mavenPro.className}>{children}</body>
+      <body className={mavenPro.className}>
+        <Toaster position='top-right' toastOptions={{ duration: 3000 }} />
+        {children}</body>
     </html>
   )
 }

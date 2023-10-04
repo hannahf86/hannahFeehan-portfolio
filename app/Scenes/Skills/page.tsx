@@ -41,7 +41,7 @@ const Skills: React.FC = () => {
 
     const desktopStyles = {
         desktopContainer: 'grid grid-col-3 gap-20',
-        desktop: 'hidden md:hidden sm:hidden lg:block mx-16 xl:mx-32 2xl:mx-40',
+        desktop: 'hidden md:hidden sm:hidden lg:block mx-20',
         skillTitle: 'text-xl xl:text-xl 2xl:text-3xl text-center font-bold text-[#F97316] mb-8 mt-8',
         languagesContainer: 'mx-auto grid grid-col-4 gap-4 xl:gap-6 justify-center items-center mb-20',
     }

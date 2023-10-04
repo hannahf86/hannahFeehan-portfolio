@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
 
     const desktopStyles = {
         desktop: 'hidden md:hidden sm:hidden lg:block mx-16 xl:mx-32 2xl:mx-40',
-        desktopProjectBox: 'grid grid-col-2 grid-row-4 gap-8 shadow-lg bg-white shadow-[#213251]/50 rounded-lg px-12 py-6 mb-16',
+        desktopProjectBox: 'grid grid-col-2 grid-row-4 gap-8 shadow-lg bg-white border-white shadow-[#213251]/50 rounded-lg px-12 py-6 mb-16 border-4 hover:border-[#F97316]',
         desktopImage: 'col-start-1 row-start-1 row-span-2 w-72 m-auto drop-shadow-xl rounded-lg',
         projectTitle: 'col-start-2 row-start-1 self-center text-2xl font-bold text-gray-500 pt-6 ',
         challengeText: 'font-bold text-[#F97316] text-lg mb-1',
