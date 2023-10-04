@@ -1,6 +1,3 @@
-'use client'
-
-
 // COMPONENTS & SCENES
 import Nav from './Components/Nav/page'
 import Landing from './Scenes/Landing/page'
