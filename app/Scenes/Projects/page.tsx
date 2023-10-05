@@ -5,7 +5,7 @@ import Link from 'next/link';
 // IMAGES
 import dbtApp from '@/app/Assets/dbtApp.png';
 import pfMusic from '@/app/Assets/pfMusicPubs.png';
-import revision from '@/app/Assets/fullStackRevision.png'
+import isaac from '@/app/Assets/IsaacWebsite.png'
 
 // ICONS
 import { BsGithub } from 'react-icons/bs'
@@ -82,7 +82,7 @@ const Projects: React.FC = () => {
 
 
                 <div id='project-02' className={styles.projectBox}>
-                    <Image src={revision} alt='fullstack revision app display' className={styles.projectImage} />
+                    <Image src={isaac} alt='fullstack revision app display' className={styles.projectImage} />
                     <h3 className={styles.projectTitle}>Fullstack Revision</h3>
                     <div>
                         <h3 className={styles.challengeText}>The Challenge</h3>
@@ -153,7 +153,7 @@ const Projects: React.FC = () => {
                 </div>
 
                 <div id='project-02' className={tabletStyles.tabletProjectBox}>
-                    <Image src={revision} alt='fullstack revision app display' className={tabletStyles.tabletImage} />
+                    <Image src={isaac} alt='fullstack revision app display' className={tabletStyles.tabletImage} />
                     <h3 className={tabletStyles.tabletProjectTitle}>Fullstack Revision</h3>
                     <div>
                         <h3 className={tabletStyles.challengeText}>The Challenge</h3>
@@ -225,16 +225,17 @@ const Projects: React.FC = () => {
 
 
                 <div id='project-02' className={desktopStyles.desktopProjectBox}>
-                    <Image src={revision} alt='Fullstack revision app display' className={desktopStyles.desktopImage} />
-                    <h3 className={desktopStyles.projectTitle}>Fullstack Revision</h3>
+                    <Image src={isaac} alt='Website for classical guitarist, Isaac Cardow' className={desktopStyles.desktopImage} />
+                    <h3 className={desktopStyles.projectTitle}>Website for Isaac Cardow</h3>
                     <div>
                         <h3 className={desktopStyles.challengeText}>The Challenge</h3>
-                        <p className={desktopStyles.projectDescription}>When returning to Vanilla JavaScript, I realised some fundamentals were buried deep in the confines of my
-                            long-term memory.<br /><br /> When trying to find a simple system to use to revise, I couldn't find anything suitable! So I made one.</p>
+                        <p className={desktopStyles.projectDescription}>I was asked to design and build a website for an up and coming classical guitarist, Isaac Cardow.
+                            <br /><br /> I used this opportunity to expand my practice with responsive design and alternative solutions for different screen sizes, including a
+                            self-made accordion news section for mobile.</p>
                         <h4 className={desktopStyles.skills}>React, Next.js 13, Tailwind</h4>
                         <div id='github-link' className={desktopStyles.links}>
-                            <Link href='#' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
-                            <Link href='#' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link>
                         </div>
                     </div>
                 </div>
@@ -260,7 +261,7 @@ const Projects: React.FC = () => {
                     <h3 className={desktopStyles.projectTitle}>PF Music Publishing</h3>
                     <div>
                         <h3 className={desktopStyles.challengeText}>The Challenge - IN PROGRESS</h3>
-                        <p className={desktopStyles.projectDescription}>I have been asked by a local musician and composer, to design and build a fullstack e-commerce website for their business.<br /><br />
+                        <p className={desktopStyles.projectDescription}>I have been asked by a local musician and composer, to design and build a fullstack e-commerce website for their business.
                             This includes a new brand identity, all graphics used in the project, as well as some social media management for YouTube and Instagram.</p>
                         <h4 className={desktopStyles.skills}>React, Next.js 13, Tailwind, PrismaORM, Stripe integration, User Authentication, Google Cloud Development, Postgres SQL</h4>
                         <div id='github-link' className={desktopStyles.links}>
