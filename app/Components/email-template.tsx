@@ -1,15 +1,41 @@
 import * as React from 'react';
+import {
+    Body,
+    Container,
+    Head,
+    Heading,
+    Html,
+    Img,
+    Link,
+    Preview,
+    Section,
+    Text,
+} from '@react-email/components';
+import { Tailwind } from '@react-email/tailwind'
 
 interface EmailTemplateProps {
-    firstName: string;
+    name: string;
+    message: string;
+    senderEmail: string;
 }
 
-export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
-    firstName,
-}) => (
-    <div>
-        <h1>Hi, {firstName}!</h1>
-        <p>Thank you for your message. I will get back to you as soon as I can.</p>
-        <h3>Hannah</h3>
-    </div>
-);
+export default function EmailTemplate({ name, message, senderEmail }: EmailTemplateProps) {
+    return <Html>
+        <Head />
+        <Preview>
+            New message
+        </Preview>
+        <Tailwind>
+            <Body>
+                <Container>
+                    <Section>
+                        <Heading>You received the following message from your contact form:</Heading>
+                        <Text>Sender's name: {name}</Text>
+                        <Text>Sender's contact details: {senderEmail}</Text>
+                        <Text>{message}</Text>
+                    </Section>
+                </Container>
+            </Body>
+        </Tailwind>
+    </Html>
+}

@@ -1,7 +1,7 @@
 'use client'
 
-import React, { useState } from 'react'
-import { toast } from 'react-hot-toast'
+import React from 'react'
+import { sendEmail } from '@/app/api/send/sendEmail'
 
 const Contact = () => {
 
@@ -14,34 +14,15 @@ const Contact = () => {
         button: 'bg-[#213251] px-6 py-2 rounded-lg mt-4 text-white font-light tracking-widest',
     }
 
-    const [data, setData] = useState({
-        name: '',
-        email: '',
-        message: '',
-    })
-
-    const sendEmail = async (e) => {
-        e.preventDefault();
-        const response = await fetch('/api/send', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data),
-        })
-
-        if (response.status === 200) {
-            setData({})
-            toast.success(`Hey ${data.name}, your message has been sent successfully! Thank you very much!`)
-        }
-    }
-
 
     return (
         <div id='contact' className={styles.background}>
             <h1 className={styles.title}>CONTACT</h1>
 
-            <form className={styles.form}>
+            <form className={styles.form}
+                action={async (formData) => {
+                    await sendEmail(formData);
+                }}>
                 <input
                     type='text'
                     name='name'
@@ -51,7 +32,7 @@ const Contact = () => {
                 />
                 <input
                     type='email'
-                    name='email'
+                    name='senderEmail'
                     placeholder='Email'
                     className={styles.inputName}
                     required
