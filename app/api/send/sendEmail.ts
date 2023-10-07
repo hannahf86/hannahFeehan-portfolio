@@ -30,9 +30,11 @@ export const sendEmail = async (formData: FormData) => {
         }
     }
 
+    let data; // to get error data from RESEND directly
+
     try {
         // asserted for speed
-        await resend.emails.send({
+        data = await resend.emails.send({
             from: 'Contact form <onboarding@resend.dev>',
             to: 'hannahfeehan.dev@gmail.com',
             subject: 'Message from contact form',
@@ -47,5 +49,8 @@ export const sendEmail = async (formData: FormData) => {
         return {
             error: getErrorMessage(error),
         }
+    }
+    return {
+        data,
     }
 }

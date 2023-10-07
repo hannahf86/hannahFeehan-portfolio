@@ -1,7 +1,11 @@
 'use client'
-
 import React from 'react'
+
+// LIBRARIES
 import { sendEmail } from '@/app/api/send/sendEmail'
+import toast from 'react-hot-toast'
+
+// COMPONENTS
 import SubmitButton from '@/app/Components/SubmitButton/page'
 
 const Contact = () => {
@@ -24,9 +28,13 @@ const Contact = () => {
 
             <form className={styles.form}
                 action={async (formData) => {
-                    await sendEmail(formData);
+                    const { data, error } = await sendEmail(formData);
+                    if (error) {
+                        toast.error(error);
+                        return; // stops the function
+                    }
+                    toast.success("Email has been sent successfully! Thanks for getting in touch!");
                 }}>
-
                 <input
                     type='text'
                     name='name'
@@ -35,7 +43,6 @@ const Contact = () => {
                     required
                     maxLength={500}
                 />
-
                 <input
                     type='email'
                     name='senderEmail'
@@ -44,7 +51,6 @@ const Contact = () => {
                     required
                     maxLength={500}
                 />
-
                 <textarea
                     type='textarea'
                     name='message'
@@ -53,12 +59,11 @@ const Contact = () => {
                     required
                     maxLength={5000}
                 />
-
                 <SubmitButton />
             </form>
 
 
-            <div className='pb-60'></div>
+            <div className='pb-24'></div>
 
         </div>
     )

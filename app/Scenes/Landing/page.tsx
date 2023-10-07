@@ -32,12 +32,12 @@ const Landing: React.FC = () => {
 
     const desktopStyles = {
         desktopTop: 'hidden md:hidden sm:hidden lg:block',
-        textContainerDt: 'px-32 pt-24',
+        textContainerDt: 'px-80 pt-24',
         subtitleDt: 'pt-36 pb-4 text-[#FFF] text-3xl',
         titleDt: 'pb-6 text-[#F97316] text-7xl',
         descriptionDt: 'text-[#FFF] pb-24 leading-8 pb-16 text-xl',
         profilePicContainer: 'w-72 mb-32',
-        profilePic: 'rounded-full ml-32 ',
+        profilePic: 'rounded-full ml-80 ',
 
     }
 
