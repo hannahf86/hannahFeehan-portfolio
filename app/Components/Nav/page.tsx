@@ -17,6 +17,7 @@ const Nav = () => {
         background: 'fixed w-full flex flex-row justify-evenly bg-[#121b2c] shadow-lg shadow-[#F97316] z-10',
         icons: 'flex flex-row content-center text-neutral-200 my-12',
         text: 'flex items-center text-xl ml-3 tracking-widest hover:text-[#F97316] hover:scale-110 cursor-pointer',
+        toggle: 'justify-self-end self-end'
     }
 
     return (
@@ -49,7 +50,9 @@ const Nav = () => {
                     <div className={desktopStyles.icons}>
                         <Link href='/#contact'> <h2 className={desktopStyles.text}><div className='mr-3'><HiMail /></div>CONTACT</h2></Link>
                     </div>
+
                 </div>
+
             </div>
         </>
     )

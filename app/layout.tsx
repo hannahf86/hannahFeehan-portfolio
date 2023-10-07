@@ -1,8 +1,13 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Maven_Pro } from 'next/font/google'
+
+// LIBRARIES
 import { Toaster } from 'react-hot-toast'
+
+// COMPONENTS
 import Footer from './Components/Footer/page'
+// import Toggle from './Components/Toggle/page'
 
 const mavenPro = Maven_Pro({ subsets: ['latin'] })
 
@@ -19,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={mavenPro.className}>
+        {/* <Toggle /> */}
         <Toaster
           position='top-right'
           toastOptions={{ duration: 3000 }}
