@@ -1,10 +1,13 @@
 'use server'
-
 import React from 'react';
-import { validateString } from '@/utils';
-import { Resend } from 'resend';
-import EmailTemplate from '@/app/Components/email-template';
 
+// EMAIL FUNCTIONS
+import { Resend } from 'resend';
+import EmailTemplate from '@/app/Components/Email/email-template';
+
+// HELPERS
+import { validateString } from '@/app/utils';
+import { getErrorMessage } from '@/app/utils';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -12,6 +15,8 @@ export const sendEmail = async (formData: FormData) => {
     const name = formData.get('name');
     const senderEmail = formData.get('senderEmail');
     const message = formData.get('message');
+
+    console.log(senderEmail);
 
     if (!validateString(senderEmail, 500)) {
         return {
@@ -21,20 +26,26 @@ export const sendEmail = async (formData: FormData) => {
 
     if (!validateString(message, 5000)) {
         return {
-            error: 'Invalid email address'
+            error: 'Invalid message'
         }
     }
 
-    // asserted for speed
-    await resend.emails.send({
-        from: 'Contact form <onboarding@resend.dev>',
-        to: 'hannahfeehan.dev@gmail.com',
-        subject: 'Message from contact form',
-        reply_to: senderEmail as string,
-        react: React.createElement(EmailTemplate, {
-            name: name as string,
-            message: message as string,
-            senderEmail: senderEmail as string,
+    try {
+        // asserted for speed
+        await resend.emails.send({
+            from: 'Contact form <onboarding@resend.dev>',
+            to: 'hannahfeehan.dev@gmail.com',
+            subject: 'Message from contact form',
+            reply_to: senderEmail as string,
+            react: React.createElement(EmailTemplate, {
+                name: name as string,
+                message: message as string,
+                senderEmail: senderEmail as string,
+            })
         })
-    })
+    } catch (error: unknown) {
+        return {
+            error: getErrorMessage(error),
+        }
+    }
 }

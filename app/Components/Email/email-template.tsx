@@ -23,13 +23,13 @@ export default function EmailTemplate({ name, message, senderEmail }: EmailTempl
     return <Html>
         <Head />
         <Preview>
-            New message
+            You received the following message from your contact form
         </Preview>
         <Tailwind>
             <Body>
                 <Container>
                     <Section>
-                        <Heading>You received the following message from your contact form:</Heading>
+                        <Heading>New Message</Heading>
                         <Text>Sender's name: {name}</Text>
                         <Text>Sender's contact details: {senderEmail}</Text>
                         <Text>{message}</Text>
