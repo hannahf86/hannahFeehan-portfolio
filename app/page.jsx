@@ -1,3 +1,5 @@
+'use client'
+
 // COMPONENTS & SCENES
 import Nav from './Components/Nav/page'
 import Contact from './Scenes/Contact/page'
