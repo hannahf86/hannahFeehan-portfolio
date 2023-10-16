@@ -65,32 +65,33 @@ const Projects: React.FC = () => {
 
                 <div id='project-01' className={styles.projectBox}>
                     <Image src={dbtApp} alt='Childcare Calculator app display' className={styles.projectImage} />
-                    <h3 className={styles.projectTitle}>Childcare Calculator</h3>
+                    <h3 className={styles.projectTitle}>Childcare Invoice Generator</h3>
                     <div>
                         <h3 className={styles.challengeText}>The Challenge</h3>
                         <p className={styles.projectDescription}>My childminder once described to me the maths she has to do in order to produce a childcare invoice.
                             I was suprised the council didn't have a calculator to make this easy for their employees, so I decided to make one.</p>
                     </div>
                     <div id='project-skills' className={styles.projectSkills}>
-                        <p>React, Next.js 13, Tailwind</p>
+                        <p>React, React-Router-Dom, Vite, Custom CSS, Node.js</p>
                     </div>
                     <div id='links' className={styles.links}>
-                        <a href='https://github.com/hannahf86/childcare-calculator/blob/master/README.md' target="_blank"><BsGithub size={30} className={styles.codeLinks} /></a>
+                        <a href='https://github.com/hannahf86/childcare-invoice-generator' target="_blank"><BsGithub size={30} className={styles.codeLinks} /></a>
                         <a href='https://magenta-phoenix-cdc886.netlify.app/' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></a>
                     </div>
                 </div>
 
 
                 <div id='project-02' className={styles.projectBox}>
-                    <Image src={isaac} alt='fullstack revision app display' className={styles.projectImage} />
-                    <h3 className={styles.projectTitle}>Fullstack Revision</h3>
+                    <Image src={isaac} alt='screenshots of website for Isaac Cardow' className={styles.projectImage} />
+                    <h3 className={styles.projectTitle}>Website for Isaac Cardow</h3>
                     <div>
                         <h3 className={styles.challengeText}>The Challenge</h3>
-                        <p className={styles.projectDescription}>When returning to Vanilla JavaScript, I realised some fundamentals were buried deep in the confines of my
-                            long-term memory.<br /><br /> When trying to find a simple system to use to revise, I couldn't find anything suitable! So I made one.</p>
-                        <h4 className={styles.projectSkills}>React, Next.js 13, Tailwind</h4>
+                        <p className={desktopStyles.projectDescription}>I was asked to design and build a website for an up and coming classical guitarist, Isaac Cardow.
+                            <br /><br /> I used this opportunity to expand my practice with responsive design and alternative solutions for different screen sizes, including a
+                            self-made accordion news section for mobile.</p>
+                        <h4 className={styles.projectSkills}>React, Next.js 13, Tailwind, Node.js</h4>
                         <div id='github-link' className={styles.links}>
-                            <Link href='#' target="_blank" ><BsGithub size={30} className={styles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank" ><BsGithub size={30} className={styles.codeLinks} /></Link>
                             <Link href='#' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></Link>
                         </div>
                     </div>
@@ -105,10 +106,10 @@ const Projects: React.FC = () => {
                         <p className={styles.projectDescription}>Whilst working as an instrumental music teacher, I find it frustrating when choosing pieces for students to
                             learn and having to flip through different PDFs for exam boards and audio tracks on Spotify or YouTube before we can choose a piece. <br /><br />
                             I decided to use Spotify and YouTube's APIs to keep all this information in one place.</p>
-                        <h4 className={styles.projectSkills}>React, Next.js 13, Tailwind</h4>
+                        <h4 className={styles.projectSkills}>React, Next.js 13, Tailwind, Node.js, YouTube API</h4>
                         <div id='github-link' className={styles.links}>
-                            <Link href='#' target="_blank" ><BsGithub size={30} className={styles.codeLinks} /></Link>
-                            <Link href='#' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={30} className={styles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></Link>
                         </div>
                     </div>
                 </div>
@@ -137,29 +138,30 @@ const Projects: React.FC = () => {
 
                 <div id='project-01' className={tabletStyles.tabletProjectBox}>
                     <Image src={dbtApp} alt='Childcare calculator app display' className={tabletStyles.tabletImage} />
-                    <h3 className={tabletStyles.tabletProjectTitle}>Childcare Calculator</h3>
+                    <h3 className={tabletStyles.tabletProjectTitle}>Childcare Invoice Generator</h3>
                     <div>
                         <h3 className={tabletStyles.challengeText}>The Challenge</h3>
                         <p className={tabletStyles.projectDescription}>My childminder once described to me the maths she has to do in order to produce a childcare
                             invoice when factoring in the different types of funding available from the government. <br /><br />
                             I was suprised the council didn't have a calculator
                             to make this easy for their employees, so I decided to make one to help her.</p>
-                        <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind</h4>
+                        <h4 className={tabletStyles.skills}>React, React-Router-DOM, Vite, Custom CSS, Node.js</h4>
                         <div id='github-link' className={tabletStyles.links}>
-                            <Link href='https://github.com/hannahf86/childcare-calculator/blob/master/README.md' target="_blank" ><BsGithub size={35} className={tabletStyles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/childcare-invoice-generator/blob/main/README.md' target="_blank" ><BsGithub size={35} className={tabletStyles.codeLinks} /></Link>
                             <Link href='https://magenta-phoenix-cdc886.netlify.app/' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link>
                         </div>
                     </div>
                 </div>
 
                 <div id='project-02' className={tabletStyles.tabletProjectBox}>
-                    <Image src={isaac} alt='fullstack revision app display' className={tabletStyles.tabletImage} />
-                    <h3 className={tabletStyles.tabletProjectTitle}>Fullstack Revision</h3>
+                    <Image src={isaac} alt='screenshots of website for Isaac Cardow' className={tabletStyles.tabletImage} />
+                    <h3 className={tabletStyles.tabletProjectTitle}>Website for Isaac Cardow</h3>
                     <div>
                         <h3 className={tabletStyles.challengeText}>The Challenge</h3>
-                        <p className={tabletStyles.projectDescription}>When returning to Vanilla JavaScript, I realised some fundamentals were buried deep in the confines of my
-                            long-term memory.<br /><br /> When trying to find a simple system to use to revise, I couldn't find anything suitable! So I made one.</p>
-                        <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind</h4>
+                        <p className={desktopStyles.projectDescription}>I was asked to design and build a website for an up and coming classical guitarist, Isaac Cardow.
+                            <br /><br /> I used this opportunity to expand my practice with responsive design and alternative solutions for different screen sizes, including a
+                            self-made accordion news section for mobile.</p>
+                        <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, Node.js</h4>
                         <div id='github-link' className={tabletStyles.links}>
                             <Link href='#' target="_blank" ><BsGithub size={35} className={tabletStyles.codeLinks} /></Link>
                             <Link href='#' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link>
@@ -175,10 +177,10 @@ const Projects: React.FC = () => {
                         <p className={tabletStyles.projectDescription}>Whilst working as an instrumental music teacher, I find it frustrating when choosing pieces for students to
                             learn and having to flip through different PDFs for exam boards and audio tracks on Spotify or YouTube before we can choose a piece. <br /><br />
                             I decided to use Spotify and YouTube's APIs to keep all this information in one place.</p>
-                        <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind</h4>
+                        <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, YouTube API</h4>
                         <div id='github-link' className={tabletStyles.links}>
-                            <Link href='#' target="_blank" ><BsGithub size={35} className={tabletStyles.codeLinks} /></Link>
-                            <Link href='#' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={35} className={tabletStyles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link>
                         </div>
                     </div>
                 </div>
@@ -193,7 +195,7 @@ const Projects: React.FC = () => {
                         <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, PrismaORM, Stripe integration, User Authentication, Google Cloud Development, Postgres SQL</h4>
                         <div id='github-link' className={tabletStyles.links}>
                             <Link href='https://github.com/hannahf86/pf-music-publishing' target="_blank" ><BsGithub size={35} className={tabletStyles.codeLinks} /></Link>
-                            <Link href='#' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link>
+                            {/* <Link href='#' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link> */}
                         </div>
                     </div>
                 </div>
@@ -208,16 +210,16 @@ const Projects: React.FC = () => {
 
                 <div id='project-01' className={desktopStyles.desktopProjectBox}>
                     <Image src={dbtApp} alt='dbt app' className={desktopStyles.desktopImage} />
-                    <h3 className={desktopStyles.projectTitle}>Childcare Calculator</h3>
+                    <h3 className={desktopStyles.projectTitle}>Childcare Invoice Generator</h3>
                     <div>
                         <h3 className={desktopStyles.challengeText}>The Challenge</h3>
                         <p className={desktopStyles.projectDescription}>My childminder once described to me the maths she has to do in order to produce a childcare
                             invoice when factoring in the different types of funding available from the government. <br /><br />
                             I was suprised the council didn't have a calculator
                             to make this easy for their employees, so I decided to make one to help her.</p>
-                        <h4 className={desktopStyles.skills}>React, Next.js 13, Tailwind</h4>
+                        <h4 className={desktopStyles.skills}>React, React-Router-DOM, Vite, Custom CSS, Node.js</h4>
                         <div id='github-link' className={desktopStyles.links}>
-                            <Link href='https://github.com/hannahf86/childcare-calculator/blob/master/README.md' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/childcare-invoice-generator/blob/main/README.md' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
                             <Link href='https://magenta-phoenix-cdc886.netlify.app/' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link>
                         </div>
                     </div>
@@ -250,8 +252,8 @@ const Projects: React.FC = () => {
                             I decided to use Spotify and YouTube's APIs to keep all this information in one place.</p>
                         <h4 className={desktopStyles.skills}>React, Next.js 13, Tailwind</h4>
                         <div id='github-link' className={desktopStyles.links}>
-                            <Link href='#' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
-                            <Link href='#' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link>
                         </div>
                     </div>
                 </div>
@@ -266,7 +268,7 @@ const Projects: React.FC = () => {
                         <h4 className={desktopStyles.skills}>React, Next.js 13, Tailwind, PrismaORM, Stripe integration, User Authentication, Google Cloud Development, Postgres SQL</h4>
                         <div id='github-link' className={desktopStyles.links}>
                             <Link href='https://github.com/hannahf86/pf-music-publishing' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
-                            <Link href='#' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link>
+                            {/* <Link href='#' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link> */}
                         </div>
                     </div>
                 </div>
