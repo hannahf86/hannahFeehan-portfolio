@@ -3,9 +3,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // IMAGES
-import dbtApp from '@/app/Assets/dbtApp.png';
+import examTracks from '@/app/Assets/examTracks.png'
 import pfMusic from '@/app/Assets/pfMusicPubs.png';
 import isaac from '@/app/Assets/IsaacWebsite.png'
+import cig from '@/app/Assets/childcareInvoiceGenerator.png'
 
 // ICONS
 import { BsGithub } from 'react-icons/bs'
@@ -64,7 +65,7 @@ const Projects: React.FC = () => {
             <div className={styles.mobile}>
 
                 <div id='project-01' className={styles.projectBox}>
-                    <Image src={dbtApp} alt='Childcare Calculator app display' className={styles.projectImage} />
+                    <Image src={cig} alt='Childcare Calculator app display' className={styles.projectImage} />
                     <h3 className={styles.projectTitle}>Childcare Invoice Generator</h3>
                     <div>
                         <h3 className={styles.challengeText}>The Challenge</h3>
@@ -99,7 +100,7 @@ const Projects: React.FC = () => {
 
 
                 <div id='project-03' className={styles.projectBox}>
-                    <Image src={dbtApp} alt='Exam Tracks app display' className={styles.projectImage} />
+                    <Image src={examTracks} alt='Exam Tracks app display' className={styles.projectImage} />
                     <h3 className={styles.projectTitle}>Exam Tracks</h3>
                     <div>
                         <h3 className={styles.challengeText}>The Challenge</h3>
@@ -137,7 +138,7 @@ const Projects: React.FC = () => {
             <div id='tabletDisplay' className={tabletStyles.tablet}>
 
                 <div id='project-01' className={tabletStyles.tabletProjectBox}>
-                    <Image src={dbtApp} alt='Childcare calculator app display' className={tabletStyles.tabletImage} />
+                    <Image src={cig} alt='Childcare calculator app display' className={tabletStyles.tabletImage} />
                     <h3 className={tabletStyles.tabletProjectTitle}>Childcare Invoice Generator</h3>
                     <div>
                         <h3 className={tabletStyles.challengeText}>The Challenge</h3>
@@ -170,7 +171,7 @@ const Projects: React.FC = () => {
                 </div>
 
                 <div id='project-03' className={tabletStyles.tabletProjectBox}>
-                    <Image src={dbtApp} alt='dbt app' className={tabletStyles.tabletImage} />
+                    <Image src={examTracks} alt='dbt app' className={tabletStyles.tabletImage} />
                     <h3 className={tabletStyles.tabletProjectTitle}>Exam Tracks</h3>
                     <div>
                         <h3 className={tabletStyles.challengeText}>The Challenge</h3>
@@ -209,7 +210,7 @@ const Projects: React.FC = () => {
             <div id='desktopDisplay' className={desktopStyles.desktop}>
 
                 <div id='project-01' className={desktopStyles.desktopProjectBox}>
-                    <Image src={dbtApp} alt='dbt app' className={desktopStyles.desktopImage} />
+                    <Image src={cig} alt='dbt app' className={desktopStyles.desktopImage} />
                     <h3 className={desktopStyles.projectTitle}>Childcare Invoice Generator</h3>
                     <div>
                         <h3 className={desktopStyles.challengeText}>The Challenge</h3>
@@ -243,7 +244,7 @@ const Projects: React.FC = () => {
                 </div>
 
                 <div id='project-03' className={desktopStyles.desktopProjectBox}>
-                    <Image src={dbtApp} alt='Exam Tracks' className={desktopStyles.desktopImage} />
+                    <Image src={examTracks} alt='Exam Tracks' className={desktopStyles.desktopImage} />
                     <h3 className={desktopStyles.projectTitle}>Exam Tracks</h3>
                     <div>
                         <h3 className={desktopStyles.challengeText}>The Challenge</h3>
