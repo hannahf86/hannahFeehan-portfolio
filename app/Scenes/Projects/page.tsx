@@ -89,7 +89,7 @@ const Projects: React.FC = () => {
                         <p className={desktopStyles.projectDescription}>I was asked to design and build a website for an up and coming classical guitarist, Isaac Cardow.
                             <br /><br /> I used this opportunity to expand my practice with responsive design and alternative solutions for different screen sizes, including a
                             self-made accordion news section for mobile.</p>
-                        <h4 className={styles.projectSkills}>React, Next.js 13, Tailwind, Node.js</h4>
+                        <h4 className={styles.projectSkills}>React, Next.js 13, Tailwind, EmailJS, Node.js</h4>
                         <div id='github-link' className={styles.links}>
                             <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank" ><BsGithub size={30} className={styles.codeLinks} /></Link>
                             <Link href='#' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></Link>
@@ -161,7 +161,7 @@ const Projects: React.FC = () => {
                         <p className={desktopStyles.projectDescription}>I was asked to design and build a website for an up and coming classical guitarist, Isaac Cardow.
                             <br /><br /> I used this opportunity to expand my practice with responsive design and alternative solutions for different screen sizes, including a
                             self-made accordion news section for mobile.</p>
-                        <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, Node.js</h4>
+                        <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, EmailJS, Node.js</h4>
                         <div id='github-link' className={tabletStyles.links}>
                             <Link href='#' target="_blank" ><BsGithub size={35} className={tabletStyles.codeLinks} /></Link>
                             <Link href='#' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link>
@@ -177,7 +177,7 @@ const Projects: React.FC = () => {
                         <p className={tabletStyles.projectDescription}>Whilst working as an instrumental music teacher, I find it frustrating when choosing pieces for students to
                             learn and having to flip through different PDFs for exam boards and audio tracks on Spotify or YouTube before we can choose a piece. <br /><br />
                             I decided to use Spotify and YouTube's APIs to keep all this information in one place.</p>
-                        <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, YouTube API</h4>
+                        <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, YouTube API, Node.js</h4>
                         <div id='github-link' className={tabletStyles.links}>
                             <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={35} className={tabletStyles.codeLinks} /></Link>
                             <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link>
@@ -234,7 +234,7 @@ const Projects: React.FC = () => {
                         <p className={desktopStyles.projectDescription}>I was asked to design and build a website for an up and coming classical guitarist, Isaac Cardow.
                             <br /><br /> I used this opportunity to expand my practice with responsive design and alternative solutions for different screen sizes, including a
                             self-made accordion news section for mobile.</p>
-                        <h4 className={desktopStyles.skills}>React, Next.js 13, Tailwind</h4>
+                        <h4 className={desktopStyles.skills}>React, Next.js 13, Tailwind, EmailJS, Node.js</h4>
                         <div id='github-link' className={desktopStyles.links}>
                             <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
                             <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link>
@@ -250,7 +250,7 @@ const Projects: React.FC = () => {
                         <p className={desktopStyles.projectDescription}>Whilst working as an instrumental music teacher, I find it frustrating when choosing pieces for students to
                             learn and having to flip through different PDFs for exam boards and audio tracks on Spotify or YouTube before we can choose a piece. <br /><br />
                             I decided to use Spotify and YouTube's APIs to keep all this information in one place.</p>
-                        <h4 className={desktopStyles.skills}>React, Next.js 13, Tailwind</h4>
+                        <h4 className={desktopStyles.skills}>React, Next.js 13, Tailwind, YouTube API</h4>
                         <div id='github-link' className={desktopStyles.links}>
                             <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
                             <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link>
