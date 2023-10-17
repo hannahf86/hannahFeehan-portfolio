@@ -77,7 +77,7 @@ const Projects: React.FC = () => {
                     </div>
                     <div id='links' className={styles.links}>
                         <a href='https://github.com/hannahf86/childcare-invoice-generator' target="_blank"><BsGithub size={30} className={styles.codeLinks} /></a>
-                        <a href='https://magenta-phoenix-cdc886.netlify.app/' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></a>
+                        <a href='https://childcare-invoice-generator-qjhydycuk-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></a>
                     </div>
                 </div>
 
@@ -110,7 +110,7 @@ const Projects: React.FC = () => {
                         <h4 className={styles.projectSkills}>React, Next.js 13, Tailwind, Node.js, YouTube API</h4>
                         <div id='github-link' className={styles.links}>
                             <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={30} className={styles.codeLinks} /></Link>
-                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></Link>
+                            {/* <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></Link> */}
                         </div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@ const Projects: React.FC = () => {
                         <h4 className={tabletStyles.skills}>React, React-Router-DOM, Vite, Custom CSS, Node.js</h4>
                         <div id='github-link' className={tabletStyles.links}>
                             <Link href='https://github.com/hannahf86/childcare-invoice-generator/blob/main/README.md' target="_blank" ><BsGithub size={35} className={tabletStyles.codeLinks} /></Link>
-                            <Link href='https://magenta-phoenix-cdc886.netlify.app/' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link>
+                            <Link href='https://childcare-invoice-generator-qjhydycuk-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link>
                         </div>
                     </div>
                 </div>
@@ -181,7 +181,7 @@ const Projects: React.FC = () => {
                         <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, YouTube API, Node.js</h4>
                         <div id='github-link' className={tabletStyles.links}>
                             <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={35} className={tabletStyles.codeLinks} /></Link>
-                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link>
+                            {/* <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link> */}
                         </div>
                     </div>
                 </div>
@@ -221,7 +221,7 @@ const Projects: React.FC = () => {
                         <h4 className={desktopStyles.skills}>React, React-Router-DOM, Vite, Custom CSS, Node.js</h4>
                         <div id='github-link' className={desktopStyles.links}>
                             <Link href='https://github.com/hannahf86/childcare-invoice-generator/blob/main/README.md' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
-                            <Link href='https://magenta-phoenix-cdc886.netlify.app/' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link>
+                            <Link href='https://childcare-invoice-generator-qjhydycuk-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link>
                         </div>
                     </div>
                 </div>
@@ -254,7 +254,7 @@ const Projects: React.FC = () => {
                         <h4 className={desktopStyles.skills}>React, Next.js 13, Tailwind, YouTube API</h4>
                         <div id='github-link' className={desktopStyles.links}>
                             <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
-                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link>
+                            {/* <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link> */}
                         </div>
                     </div>
                 </div>
