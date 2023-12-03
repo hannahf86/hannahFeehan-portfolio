@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
         projectDescription: 'text-gray-800 text-sm mb-6 leading-relaxed text-justify',
         projectSkills: 'my-4 text-sm text-gray-500',
         links: 'flex flex-row justify-center ',
-        codeLinks: 'text-[#F97316] m-4',
+        codeLinks: 'text-[#F97316] mx-8',
     }
 
     const tabletStyles = {
@@ -38,7 +38,7 @@ const Projects: React.FC = () => {
         projectDescription: 'col-start-2 row-start-2 text-gray-800 text-sm mb-6 text-justify',
         skills: 'col-start-2 row-start-3 text-md font-light text-gray-500 mb-6 ',
         links: 'col-start-2 row-start-4 flex justify-start items-end mb-4',
-        codeLinks: 'text-[#F97316] mr-8',
+        codeLinks: 'text-[#F97316] mx-8',
     }
 
     const desktopStyles = {
@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
         projectDescription: 'col-start-2 row-start-2 text-gray-800 text-md mb-6 text-justify',
         skills: 'col-start-2 row-start-3 text-md font-light text-gray-500 mb-6 ',
         links: 'col-start-2 row-start-4 flex justify-start items-end mb-4',
-        codeLinks: 'text-[#F97316] mr-8',
+        codeLinks: 'text-[#F97316] flex flex-col items-center mr-12',
     }
 
     return (
@@ -76,8 +76,8 @@ const Projects: React.FC = () => {
                         <p>React, React-Router-Dom, Vite, Custom CSS, Node.js</p>
                     </div>
                     <div id='links' className={styles.links}>
-                        <a href='https://github.com/hannahf86/childcare-invoice-generator' target="_blank"><BsGithub size={30} className={styles.codeLinks} /></a>
-                        <a href='https://childcare-invoice-generator-qjhydycuk-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></a>
+                        <a href='https://github.com/hannahf86/childcare-invoice-generator' target="_blank"><BsGithub size={30}  /></a>
+                        <a href='https://childcare-invoice-generator-qjhydycuk-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={30} /></a>
                     </div>
                 </div>
 
@@ -92,7 +92,7 @@ const Projects: React.FC = () => {
                             self-made accordion news section for mobile.</p>
                         <h4 className={styles.projectSkills}>React, Next.js 13, Tailwind, EmailJS, Node.js</h4>
                         <div id='github-link' className={styles.links}>
-                            <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank" ><BsGithub size={30} className={styles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank" ><BsGithub size={30}  /></Link>
                             <Link href='#' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></Link>
                         </div>
                     </div>
@@ -109,8 +109,8 @@ const Projects: React.FC = () => {
                             I decided to use Spotify and YouTube's APIs to keep all this information in one place.</p>
                         <h4 className={styles.projectSkills}>React, Next.js 13, Tailwind, Node.js, YouTube API</h4>
                         <div id='github-link' className={styles.links}>
-                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={30} className={styles.codeLinks} /></Link>
-                            {/* <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></Link> */}
+                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={30}  /></Link>
+                            {/* <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={30}  /></Link> */}
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ const Projects: React.FC = () => {
                             This includes a new brand identity, all graphics used in the project, as well as some social media management for YouTube and Instagram.</p>
                         <h4 className={styles.projectSkills}>React, Next.js 13, Tailwind, PrismaORM, Stripe integration, User Authentication, Google Cloud Development, Postgres SQL</h4>
                         <div id='github-link' className={styles.links}>
-                            <Link href='https://github.com/hannahf86/pf-music-publishing' target="_blank" ><BsGithub size={35} className={styles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/pf-music-publishing' target="_blank" ><BsGithub size={35}  /></Link>
                             <Link href='#' target="_blank"><CgWebsite size={35} className={styles.codeLinks} /></Link>
                         </div>
                     </div>
@@ -148,8 +148,8 @@ const Projects: React.FC = () => {
                             to make this easy for their employees, so I decided to make one to help her.</p>
                         <h4 className={tabletStyles.skills}>React, React-Router-DOM, Vite, Custom CSS, Node.js</h4>
                         <div id='github-link' className={tabletStyles.links}>
-                            <Link href='https://github.com/hannahf86/childcare-invoice-generator/blob/main/README.md' target="_blank" ><BsGithub size={35} className={tabletStyles.codeLinks} /></Link>
-                            <Link href='https://childcare-invoice-generator-qjhydycuk-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/childcare-invoice-generator/blob/main/README.md' target="_blank" ><BsGithub size={35}  /></Link>
+                            <Link href='https://childcare-invoice-generator-qjhydycuk-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={35}  /></Link>
                         </div>
                     </div>
                 </div>
@@ -164,8 +164,8 @@ const Projects: React.FC = () => {
                             self-made accordion news section for mobile.</p>
                         <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, EmailJS, Node.js</h4>
                         <div id='github-link' className={tabletStyles.links}>
-                            <Link href='#' target="_blank" ><BsGithub size={35} className={tabletStyles.codeLinks} /></Link>
-                            <Link href='#' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link>
+                            <Link href='#' target="_blank" ><BsGithub size={35}/></Link>
+                            <Link href='#' target="_blank"><CgWebsite size={35}  /></Link>
                         </div>
                     </div>
                 </div>
@@ -180,8 +180,8 @@ const Projects: React.FC = () => {
                             I decided to use Spotify and YouTube's APIs to keep all this information in one place.</p>
                         <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, YouTube API, Node.js</h4>
                         <div id='github-link' className={tabletStyles.links}>
-                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={35} className={tabletStyles.codeLinks} /></Link>
-                            {/* <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link> */}
+                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={35}  /></Link>
+                            {/* <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={35} /></Link> */}
                         </div>
                     </div>
                 </div>
@@ -195,8 +195,8 @@ const Projects: React.FC = () => {
                             This includes a new brand identity, all graphics used in the project, as well as some social media management for YouTube and Instagram.</p>
                         <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, PrismaORM, Stripe integration, User Authentication, Google Cloud Development, Postgres SQL</h4>
                         <div id='github-link' className={tabletStyles.links}>
-                            <Link href='https://github.com/hannahf86/pf-music-publishing' target="_blank" ><BsGithub size={35} className={tabletStyles.codeLinks} /></Link>
-                            {/* <Link href='#' target="_blank"><CgWebsite size={35} className={tabletStyles.codeLinks} /></Link> */}
+                            <Link href='https://github.com/hannahf86/pf-music-publishing' target="_blank" ><BsGithub size={35}  /></Link>
+                            {/* <Link href='#' target="_blank"><CgWebsite size={35}  /></Link> */}
                         </div>
                     </div>
                 </div>
@@ -219,9 +219,17 @@ const Projects: React.FC = () => {
                             I was suprised the council didn't have a calculator
                             to make this easy for their employees, so I decided to make one to help her.</p>
                         <h4 className={desktopStyles.skills}>React, React-Router-DOM, Vite, Custom CSS, Node.js</h4>
+
                         <div id='github-link' className={desktopStyles.links}>
-                            <Link href='https://github.com/hannahf86/childcare-invoice-generator/blob/main/README.md' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
-                            <Link href='https://childcare-invoice-generator-qjhydycuk-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link>
+                            <div className={desktopStyles.codeLinks}>
+                                <p>Github</p>
+                                <Link href='https://github.com/hannahf86/childcare-invoice-generator/blob/main/README.md' target="_blank" ><BsGithub size={35} /></Link>
+                            </div>
+
+                            <div className={desktopStyles.codeLinks}>
+                                <p>Live Site</p>
+                                <Link href='https://childcare-invoice-generator-qjhydycuk-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -236,9 +244,16 @@ const Projects: React.FC = () => {
                             <br /><br /> I used this opportunity to expand my practice with responsive design and alternative solutions for different screen sizes, including a
                             self-made accordion news section for mobile.</p>
                         <h4 className={desktopStyles.skills}>React, Next.js 13, Tailwind, EmailJS, Node.js</h4>
+
                         <div id='github-link' className={desktopStyles.links}>
-                            <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
-                            <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link>
+                            <div className={desktopStyles.codeLinks}>
+                                <p>Github</p>
+                                <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank" ><BsGithub size={35} /></Link>
+                                </div>
+                                <div className={desktopStyles.codeLinks}>
+                                <p>Live Site</p>
+                                <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank"><CgWebsite size={35}  /></Link>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -252,9 +267,13 @@ const Projects: React.FC = () => {
                             learn and having to flip through different PDFs for exam boards and audio tracks on Spotify or YouTube before we can choose a piece. <br /><br />
                             I decided to use Spotify and YouTube's APIs to keep all this information in one place.</p>
                         <h4 className={desktopStyles.skills}>React, Next.js 13, Tailwind, YouTube API</h4>
+
                         <div id='github-link' className={desktopStyles.links}>
-                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
-                            {/* <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link> */}
+                            <div className={desktopStyles.codeLinks}>
+                                <p>Github</p>
+                                 <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={35} /></Link>
+                                 </div>
+                            {/* <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={35} /></Link> */}
                         </div>
                     </div>
                 </div>
@@ -267,9 +286,12 @@ const Projects: React.FC = () => {
                         <p className={desktopStyles.projectDescription}>I have been asked by a local musician and composer, to design and build a fullstack e-commerce website for their business.
                             This includes a new brand identity, all graphics used in the project, as well as some social media management for YouTube and Instagram.</p>
                         <h4 className={desktopStyles.skills}>React, Next.js 13, Tailwind, PrismaORM, Stripe integration, User Authentication, Google Cloud Development, Postgres SQL</h4>
+                        
                         <div id='github-link' className={desktopStyles.links}>
-                            <Link href='https://github.com/hannahf86/pf-music-publishing' target="_blank" ><BsGithub size={35} className={desktopStyles.codeLinks} /></Link>
-                            {/* <Link href='#' target="_blank"><CgWebsite size={35} className={desktopStyles.codeLinks} /></Link> */}
+                        <div className={desktopStyles.codeLinks}>
+                                <p>Github</p><Link href='https://github.com/hannahf86/pf-music-publishing' target="_blank" ><BsGithub size={35} /></Link>
+                            </div>
+                            {/* <Link href='#' target="_blank"><CgWebsite size={35}  /></Link> */}
                         </div>
                     </div>
                 </div>

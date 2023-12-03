@@ -24,7 +24,7 @@ const Contact = () => {
         <div id='contact' className={styles.background}>
             <h1 className={styles.title}>CONTACT</h1>
 
-            <p className={styles.description}>Please get in touch if you wish if you have any questions.</p>
+            <p className={styles.description}>Please get in touch if you have any questions.</p>
 
             <form className={styles.form}
                 action={async (formData) => {
