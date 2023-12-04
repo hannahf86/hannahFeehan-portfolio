@@ -96,7 +96,8 @@ const Projects: React.FC = () => {
                         <p className={styles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI.<br /><br />
                         I had seen some interesting tutorials and articles using Material UI, along with some libraries I had not heard of, which included Novi and Full Calendar.
                         I was keen to learn these packages as I felt I could reuse them in future projects.</p>
-                        <h4 className={styles.projectSkills}>React, Create React App, Material UI, Bootstrap</h4>
+                        <h4 className={styles.projectSkills}>React, Create React App, Material UI, Bootstrap, Custom CSS, TailwindCSS Shades, Nivo, Formik, Yup, 
+                        Full Calendar, React Icons</h4>
                         <div id='github-link' className={desktopStyles.links}>
                             <div className={styles.codeLinks}>
                                 <p>Github</p>
@@ -188,7 +189,8 @@ const Projects: React.FC = () => {
                         <p className={tabletStyles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI.<br /><br />
                         I had seen some interesting tutorials and articles using Material UI, along with some libraries I had not heard of, which included Novi and Full Calendar.
                         I was keen to learn these packages as I felt I could reuse them in future projects.</p>
-                        <h4 className={tabletStyles.skills}>React, Create React App, Material UI, Bootstrap</h4>
+                        <h4 className={tabletStyles.skills}>React, Create React App, Material UI, Bootstrap, Custom CSS, TailwindCSS Shades, Nivo, Formik, Yup, 
+                        Full Calendar, React Icons</h4>
 
                         <div id='github-link' className={desktopStyles.links}>
                             <div className={tabletStyles.codeLinks}>
@@ -284,7 +286,8 @@ const Projects: React.FC = () => {
                         I had seen some interesting tutorials and articles using Material UI, along with some libraries I had not heard of, which included Novi and Full Calendar.
                         I was keen to learn these packages as I felt I could reuse them in future projects.
                         </p>
-                        <h4 className={desktopStyles.skills}>React, React-Router-DOM, Vite, Custom CSS, Node.js</h4>
+                        <h4 className={desktopStyles.skills}>React, Create React App, Material UI, Bootstrap, Custom CSS, TailwindCSS Shades, Nivo, Formik, 
+                        Yup, Full Calendar, React Icons</h4>
 
                         <div id='github-link' className={desktopStyles.links}>
                             <div className={desktopStyles.codeLinks}>
