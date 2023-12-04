@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
         projectDescription: 'text-gray-800 text-sm mb-6 leading-relaxed text-justify',
         projectSkills: 'my-4 text-sm text-gray-500',
         links: 'flex flex-row justify-center ',
-        codeLinks: 'text-[#F97316] mx-8',
+        codeLinks: 'text-[#F97316] flex flex-col items-center mx-auto',
     }
 
     const tabletStyles = {
@@ -38,7 +38,7 @@ const Projects: React.FC = () => {
         projectDescription: 'col-start-2 row-start-2 text-gray-800 text-sm mb-6 text-justify',
         skills: 'col-start-2 row-start-3 text-md font-light text-gray-500 mb-6 ',
         links: 'col-start-2 row-start-4 flex justify-start items-end mb-4',
-        codeLinks: 'text-[#F97316] mx-8',
+        codeLinks: 'text-[#F97316] flex flex-col items-center mx-auto',
     }
 
     const desktopStyles = {
@@ -75,10 +75,17 @@ const Projects: React.FC = () => {
                     <div id='project-skills' className={styles.projectSkills}>
                         <p>React, React-Router-Dom, Vite, Custom CSS, Node.js</p>
                     </div>
-                    <div id='links' className={styles.links}>
-                        <a href='https://github.com/hannahf86/childcare-invoice-generator' target="_blank"><BsGithub size={30}  /></a>
-                        <a href='https://childcare-invoice-generator-qjhydycuk-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={30} /></a>
-                    </div>
+                    <div id='github-link' className={tabletStyles.links}>
+                            <div className={styles.codeLinks}>
+                                <p>Github</p>
+                                <Link href='https://github.com/hannahf86/childcare-invoice-generator/blob/main/README.md' target="_blank" ><BsGithub size={35} /></Link>
+                            </div>
+
+                            <div className={styles.codeLinks}>
+                                <p>Live Site</p>
+                                <Link href='https://childcare-invoice-generator-rojzbb57g-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
+                            </div>
+                        </div>
                 </div>
 
 
@@ -91,9 +98,15 @@ const Projects: React.FC = () => {
                             <br /><br /> I used this opportunity to expand my practice with responsive design and alternative solutions for different screen sizes, including a
                             self-made accordion news section for mobile.</p>
                         <h4 className={styles.projectSkills}>React, Next.js 13, Tailwind, EmailJS, Node.js</h4>
-                        <div id='github-link' className={styles.links}>
-                            <Link href='https://github.com/hannahf86/isaac-cardow' target="_blank" ><BsGithub size={30}  /></Link>
-                            <Link href='https://www.isaaccardow.com/' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></Link>
+                        <div id='github-link' className={desktopStyles.links}>
+                            <div className={styles.codeLinks}>
+                                <p>Github</p>
+                                <Link href='https://github.com/hannahf86/isaac-cardow' target="_blank" ><BsGithub size={35} /></Link>
+                                </div>
+                                <div className={styles.codeLinks}>
+                                <p>Live Site</p>
+                                <Link href='https://www.isaaccardow.com/' target="_blank"><CgWebsite size={35}  /></Link>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -105,11 +118,17 @@ const Projects: React.FC = () => {
                     <div>
                         <h3 className={styles.challengeText}>The Challenge</h3>
                         <p className={styles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI</p>
-                        <h4 className={tabletStyles.skills}>React, Create React App, Material UI, Bootstrap</h4>
                         <h4 className={styles.projectSkills}>React, Create React App, Material UI, Bootstrap</h4>
-                        <div id='github-link' className={styles.links}>
-                            <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={30}  /></Link>
-                            <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={30}  /></Link> 
+                        <div id='github-link' className={desktopStyles.links}>
+                            <div className={styles.codeLinks}>
+                                <p>Github</p>
+                                 <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={35} /></Link>
+                            </div>
+
+                            <div className={styles.codeLinks}>
+                            <p>Live Site</p>
+                                 <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
+                                 </div>
                         </div>
                     </div>
                 </div>
@@ -123,9 +142,8 @@ const Projects: React.FC = () => {
                         <p className={styles.projectDescription}>I have been asked by a local musician and composer, to design and build a fullstack e-commerce website for their business.<br /><br />
                             This includes a new brand identity, all graphics used in the project, as well as some social media management for YouTube and Instagram.</p>
                         <h4 className={styles.projectSkills}>React, Next.js 13, Tailwind, PrismaORM, Stripe integration, User Authentication, Google Cloud Development, Postgres SQL</h4>
-                        <div id='github-link' className={styles.links}>
-                            <Link href='https://github.com/hannahf86/pf-music-publishing' target="_blank" ><BsGithub size={35}  /></Link>
-                            <Link href='#' target="_blank"><CgWebsite size={35} className={styles.codeLinks} /></Link>
+                        <div className={styles.codeLinks}>
+                            <p>Github</p><Link href='https://github.com/hannahf86/pf-music-publishing' target="_blank" ><BsGithub size={35} /></Link>
                         </div>
                     </div>
                 </div>
@@ -146,9 +164,17 @@ const Projects: React.FC = () => {
                             I was suprised the council didn't have a calculator
                             to make this easy for their employees, so I decided to make one to help her.</p>
                         <h4 className={tabletStyles.skills}>React, React-Router-DOM, Vite, Custom CSS, Node.js</h4>
+
                         <div id='github-link' className={tabletStyles.links}>
-                            <Link href='https://github.com/hannahf86/childcare-invoice-generator/blob/main/README.md' target="_blank" ><BsGithub size={35}  /></Link>
-                            <Link href='https://childcare-invoice-generator-qjhydycuk-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={35}  /></Link>
+                            <div className={tabletStyles.codeLinks}>
+                                <p>Github</p>
+                                <Link href='https://github.com/hannahf86/childcare-invoice-generator/blob/main/README.md' target="_blank" ><BsGithub size={35} /></Link>
+                            </div>
+
+                            <div className={tabletStyles.codeLinks}>
+                                <p>Live Site</p>
+                                <Link href='https://childcare-invoice-generator-rojzbb57g-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -162,9 +188,15 @@ const Projects: React.FC = () => {
                             <br /><br /> I used this opportunity to expand my practice with responsive design and alternative solutions for different screen sizes, including a
                             self-made accordion news section for mobile.</p>
                         <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, EmailJS, Node.js</h4>
-                        <div id='github-link' className={tabletStyles.links}>
-                            <Link href='https://github.com/hannahf86/isaac-cardow' target="_blank" ><BsGithub size={35}/></Link>
-                            <Link href='https://www.isaaccardow.com/' target="_blank"><CgWebsite size={35}  /></Link>
+                        <div id='github-link' className={desktopStyles.links}>
+                            <div className={tabletStyles.codeLinks}>
+                                <p>Github</p>
+                                <Link href='https://github.com/hannahf86/isaac-cardow' target="_blank" ><BsGithub size={35} /></Link>
+                                </div>
+                                <div className={tabletStyles.codeLinks}>
+                                <p>Live Site</p>
+                                <Link href='https://www.isaaccardow.com/' target="_blank"><CgWebsite size={35}  /></Link>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -176,9 +208,17 @@ const Projects: React.FC = () => {
                         <h3 className={tabletStyles.challengeText}>The Challenge</h3>
                         <p className={tabletStyles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI</p>
                         <h4 className={tabletStyles.skills}>React, Create React App, Material UI, Bootstrap</h4>
-                        <div id='github-link' className={tabletStyles.links}>
-                            <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={35}  /></Link>
-                            <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
+
+                        <div id='github-link' className={desktopStyles.links}>
+                            <div className={tabletStyles.codeLinks}>
+                                <p>Github</p>
+                                 <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={35} /></Link>
+                            </div>
+
+                            <div className={tabletStyles.codeLinks}>
+                            <p>Live Site</p>
+                                 <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
+                                 </div>
                         </div>
                     </div>
                 </div>
@@ -191,10 +231,9 @@ const Projects: React.FC = () => {
                         <p className={tabletStyles.projectDescription}>I have been asked by a local musician and composer, to design and build a fullstack e-commerce website for their business.<br /><br />
                             This includes a new brand identity, all graphics used in the project, as well as some social media management for YouTube and Instagram.</p>
                         <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, PrismaORM, Stripe integration, User Authentication, Google Cloud Development, Postgres SQL</h4>
-                        <div id='github-link' className={tabletStyles.links}>
-                            <Link href='https://github.com/hannahf86/pf-music-publishing' target="_blank" ><BsGithub size={35}  /></Link>
-                            {/* <Link href='#' target="_blank"><CgWebsite size={35}  /></Link> */}
-                        </div>
+                        <div className={tabletStyles.codeLinks}>
+                                <p>Github</p><Link href='https://github.com/hannahf86/pf-music-publishing' target="_blank" ><BsGithub size={35} /></Link>
+                            </div>
                     </div>
                 </div>
 

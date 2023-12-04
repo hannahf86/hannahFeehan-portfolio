@@ -55,7 +55,7 @@ const Landing: React.FC = () => {
                     </div>
                     <p className={styles.description}>I'm a full-stack developer <br />with UI/UX experience to help you with all your digital needs.<br /><br /></p>
 
-                    <Link href='/projects' className='text-white text-center m-auto flex flex-col justify-center items-center pt-6'>
+                    <Link href='/#projects' className='text-white text-center m-auto flex flex-col justify-center items-center pt-6'>
                         <p className='mb-4'>SEE MORE</p>
                         <HiChevronDoubleDown />
                     </Link>
