@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // IMAGES
-import examTracks from '@/app/Assets/examTracks.png'
+import dashboard from '@/app/Assets/dashboard.png'
 import pfMusic from '@/app/Assets/pfMusicPubs.png';
 import isaac from '@/app/Assets/IsaacWebsite.png'
 import cig from '@/app/Assets/childcareInvoiceGenerator.png'
@@ -100,7 +100,7 @@ const Projects: React.FC = () => {
 
 
                 <div id='project-03' className={styles.projectBox}>
-                    <Image src={examTracks} alt='Exam Tracks app display' className={styles.projectImage} />
+                    <Image src={dashboard} alt='Admin Dashboard' className={styles.projectImage} />
                     <h3 className={styles.projectTitle}>Admin Dashboard</h3>
                     <div>
                         <h3 className={styles.challengeText}>The Challenge</h3>
@@ -170,7 +170,7 @@ const Projects: React.FC = () => {
                 </div>
 
                 <div id='project-03' className={tabletStyles.tabletProjectBox}>
-                    <Image src={examTracks} alt='dbt app' className={tabletStyles.tabletImage} />
+                    <Image src={dashboard} alt='Admin Dashboard' className={tabletStyles.tabletImage} />
                     <h3 className={tabletStyles.tabletProjectTitle}>Admin Dashboard</h3>
                     <div>
                         <h3 className={tabletStyles.challengeText}>The Challenge</h3>
@@ -256,7 +256,7 @@ const Projects: React.FC = () => {
                 </div>
 
                 <div id='project-03' className={desktopStyles.desktopProjectBox}>
-                    <Image src={examTracks} alt='Exam Tracks' className={desktopStyles.desktopImage} />
+                    <Image src={dashboard} alt='Admin Dashboard' className={desktopStyles.desktopImage} />
                     <h3 className={desktopStyles.projectTitle}>Admin Dashboard</h3>
                     <div>
                         <h3 className={desktopStyles.challengeText}>The Challenge</h3>
