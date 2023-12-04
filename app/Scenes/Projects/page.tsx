@@ -88,8 +88,29 @@ const Projects: React.FC = () => {
                         </div>
                 </div>
 
-
                 <div id='project-02' className={styles.projectBox}>
+                    <Image src={dashboard} alt='Admin Dashboard' className={styles.projectImage} />
+                    <h3 className={styles.projectTitle}>Admin Dashboard</h3>
+                    <div>
+                        <h3 className={styles.challengeText}>The Challenge</h3>
+                        <p className={styles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI</p>
+                        <h4 className={styles.projectSkills}>React, Create React App, Material UI, Bootstrap</h4>
+                        <div id='github-link' className={desktopStyles.links}>
+                            <div className={styles.codeLinks}>
+                                <p>Github</p>
+                                 <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={35} /></Link>
+                            </div>
+
+                            <div className={styles.codeLinks}>
+                            <p>Live Site</p>
+                                 <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id='project-03' className={styles.projectBox}>
                     <Image src={isaac} alt='screenshots of website for Isaac Cardow' className={styles.projectImage} />
                     <h3 className={styles.projectTitle}>Website for Isaac Cardow</h3>
                     <div>
@@ -107,28 +128,6 @@ const Projects: React.FC = () => {
                                 <p>Live Site</p>
                                 <Link href='https://www.isaaccardow.com/' target="_blank"><CgWebsite size={35}  /></Link>
                                 </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div id='project-03' className={styles.projectBox}>
-                    <Image src={dashboard} alt='Admin Dashboard' className={styles.projectImage} />
-                    <h3 className={styles.projectTitle}>Admin Dashboard</h3>
-                    <div>
-                        <h3 className={styles.challengeText}>The Challenge</h3>
-                        <p className={styles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI</p>
-                        <h4 className={styles.projectSkills}>React, Create React App, Material UI, Bootstrap</h4>
-                        <div id='github-link' className={desktopStyles.links}>
-                            <div className={styles.codeLinks}>
-                                <p>Github</p>
-                                 <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={35} /></Link>
-                            </div>
-
-                            <div className={styles.codeLinks}>
-                            <p>Live Site</p>
-                                 <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
-                                 </div>
                         </div>
                     </div>
                 </div>
@@ -180,6 +179,28 @@ const Projects: React.FC = () => {
                 </div>
 
                 <div id='project-02' className={tabletStyles.tabletProjectBox}>
+                    <Image src={dashboard} alt='Admin Dashboard' className={tabletStyles.tabletImage} />
+                    <h3 className={tabletStyles.tabletProjectTitle}>Admin Dashboard</h3>
+                    <div>
+                        <h3 className={tabletStyles.challengeText}>The Challenge</h3>
+                        <p className={tabletStyles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI</p>
+                        <h4 className={tabletStyles.skills}>React, Create React App, Material UI, Bootstrap</h4>
+
+                        <div id='github-link' className={desktopStyles.links}>
+                            <div className={tabletStyles.codeLinks}>
+                                <p>Github</p>
+                                 <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={35} /></Link>
+                            </div>
+
+                            <div className={tabletStyles.codeLinks}>
+                            <p>Live Site</p>
+                                 <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id='project-03' className={tabletStyles.tabletProjectBox}>
                     <Image src={isaac} alt='screenshots of website for Isaac Cardow' className={tabletStyles.tabletImage} />
                     <h3 className={tabletStyles.tabletProjectTitle}>Website for Isaac Cardow</h3>
                     <div>
@@ -201,27 +222,7 @@ const Projects: React.FC = () => {
                     </div>
                 </div>
 
-                <div id='project-03' className={tabletStyles.tabletProjectBox}>
-                    <Image src={dashboard} alt='Admin Dashboard' className={tabletStyles.tabletImage} />
-                    <h3 className={tabletStyles.tabletProjectTitle}>Admin Dashboard</h3>
-                    <div>
-                        <h3 className={tabletStyles.challengeText}>The Challenge</h3>
-                        <p className={tabletStyles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI</p>
-                        <h4 className={tabletStyles.skills}>React, Create React App, Material UI, Bootstrap</h4>
 
-                        <div id='github-link' className={desktopStyles.links}>
-                            <div className={tabletStyles.codeLinks}>
-                                <p>Github</p>
-                                 <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={35} /></Link>
-                            </div>
-
-                            <div className={tabletStyles.codeLinks}>
-                            <p>Live Site</p>
-                                 <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
-                                 </div>
-                        </div>
-                    </div>
-                </div>
 
                 <div id='project-04' className={tabletStyles.tabletProjectBox}>
                     <Image src={pfMusic} alt='dbt app' className={tabletStyles.tabletImage} />
@@ -270,8 +271,29 @@ const Projects: React.FC = () => {
                     </div>
                 </div>
 
-
                 <div id='project-02' className={desktopStyles.desktopProjectBox}>
+                    <Image src={dashboard} alt='Admin Dashboard' className={desktopStyles.desktopImage} />
+                    <h3 className={desktopStyles.projectTitle}>Admin Dashboard</h3>
+                    <div>
+                        <h3 className={desktopStyles.challengeText}>The Challenge</h3>
+                        <p className={desktopStyles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI.</p>
+                        <h4 className={desktopStyles.skills}>React, Create React App, Material UI, Bootstrap</h4>
+
+                        <div id='github-link' className={desktopStyles.links}>
+                            <div className={desktopStyles.codeLinks}>
+                                <p>Github</p>
+                                 <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={35} /></Link>
+                            </div>
+
+                            <div className={desktopStyles.codeLinks}>
+                            <p>Live Site</p>
+                                 <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id='project-03' className={desktopStyles.desktopProjectBox}>
                     <Image src={isaac} alt='Website for classical guitarist, Isaac Cardow' className={desktopStyles.desktopImage} />
                     <h3 className={desktopStyles.projectTitle}>Website for Isaac Cardow</h3>
                     <div>
@@ -294,28 +316,7 @@ const Projects: React.FC = () => {
                     </div>
                 </div>
 
-                <div id='project-03' className={desktopStyles.desktopProjectBox}>
-                    <Image src={dashboard} alt='Admin Dashboard' className={desktopStyles.desktopImage} />
-                    <h3 className={desktopStyles.projectTitle}>Admin Dashboard</h3>
-                    <div>
-                        <h3 className={desktopStyles.challengeText}>The Challenge</h3>
-                        <p className={desktopStyles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI
-</p>
-                        <h4 className={desktopStyles.skills}>React, Create React App, Material UI, Bootstrap</h4>
-
-                        <div id='github-link' className={desktopStyles.links}>
-                            <div className={desktopStyles.codeLinks}>
-                                <p>Github</p>
-                                 <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={35} /></Link>
-                            </div>
-
-                            <div className={desktopStyles.codeLinks}>
-                            <p>Live Site</p>
-                                 <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
-                                 </div>
-                        </div>
-                    </div>
-                </div>
+                
 
                 <div id='project-04' className={desktopStyles.desktopProjectBox}>
                     <Image src={pfMusic} alt='PF Music Publishing' className={desktopStyles.desktopImage} />
