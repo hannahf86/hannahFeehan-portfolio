@@ -92,8 +92,8 @@ const Projects: React.FC = () => {
                             self-made accordion news section for mobile.</p>
                         <h4 className={styles.projectSkills}>React, Next.js 13, Tailwind, EmailJS, Node.js</h4>
                         <div id='github-link' className={styles.links}>
-                            <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank" ><BsGithub size={30}  /></Link>
-                            <Link href='#' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></Link>
+                            <Link href='https://github.com/hannahf86/isaac-cardow' target="_blank" ><BsGithub size={30}  /></Link>
+                            <Link href='https://www.isaaccardow.com/' target="_blank"><CgWebsite size={30} className={styles.codeLinks} /></Link>
                         </div>
                     </div>
                 </div>
@@ -101,16 +101,15 @@ const Projects: React.FC = () => {
 
                 <div id='project-03' className={styles.projectBox}>
                     <Image src={examTracks} alt='Exam Tracks app display' className={styles.projectImage} />
-                    <h3 className={styles.projectTitle}>Exam Tracks</h3>
+                    <h3 className={styles.projectTitle}>Admin Dashboard</h3>
                     <div>
                         <h3 className={styles.challengeText}>The Challenge</h3>
-                        <p className={styles.projectDescription}>Whilst working as an instrumental music teacher, I find it frustrating when choosing pieces for students to
-                            learn and having to flip through different PDFs for exam boards and audio tracks on Spotify or YouTube before we can choose a piece. <br /><br />
-                            I decided to use Spotify and YouTube's APIs to keep all this information in one place.</p>
-                        <h4 className={styles.projectSkills}>React, Next.js 13, Tailwind, Node.js, YouTube API</h4>
+                        <p className={styles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI</p>
+                        <h4 className={tabletStyles.skills}>React, Create React App, Material UI, Bootstrap</h4>
+                        <h4 className={styles.projectSkills}>React, Create React App, Material UI, Bootstrap</h4>
                         <div id='github-link' className={styles.links}>
-                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={30}  /></Link>
-                            {/* <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={30}  /></Link> */}
+                            <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={30}  /></Link>
+                            <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={30}  /></Link> 
                         </div>
                     </div>
                 </div>
@@ -164,24 +163,22 @@ const Projects: React.FC = () => {
                             self-made accordion news section for mobile.</p>
                         <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, EmailJS, Node.js</h4>
                         <div id='github-link' className={tabletStyles.links}>
-                            <Link href='#' target="_blank" ><BsGithub size={35}/></Link>
-                            <Link href='#' target="_blank"><CgWebsite size={35}  /></Link>
+                            <Link href='https://github.com/hannahf86/isaac-cardow' target="_blank" ><BsGithub size={35}/></Link>
+                            <Link href='https://www.isaaccardow.com/' target="_blank"><CgWebsite size={35}  /></Link>
                         </div>
                     </div>
                 </div>
 
                 <div id='project-03' className={tabletStyles.tabletProjectBox}>
                     <Image src={examTracks} alt='dbt app' className={tabletStyles.tabletImage} />
-                    <h3 className={tabletStyles.tabletProjectTitle}>Exam Tracks</h3>
+                    <h3 className={tabletStyles.tabletProjectTitle}>Admin Dashboard</h3>
                     <div>
                         <h3 className={tabletStyles.challengeText}>The Challenge</h3>
-                        <p className={tabletStyles.projectDescription}>Whilst working as an instrumental music teacher, I find it frustrating when choosing pieces for students to
-                            learn and having to flip through different PDFs for exam boards and audio tracks on Spotify or YouTube before we can choose a piece. <br /><br />
-                            I decided to use Spotify and YouTube's APIs to keep all this information in one place.</p>
-                        <h4 className={tabletStyles.skills}>React, Next.js 13, Tailwind, YouTube API, Node.js</h4>
+                        <p className={tabletStyles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI</p>
+                        <h4 className={tabletStyles.skills}>React, Create React App, Material UI, Bootstrap</h4>
                         <div id='github-link' className={tabletStyles.links}>
-                            <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={35}  /></Link>
-                            {/* <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={35} /></Link> */}
+                            <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={35}  /></Link>
+                            <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
                         </div>
                     </div>
                 </div>
@@ -248,11 +245,11 @@ const Projects: React.FC = () => {
                         <div id='github-link' className={desktopStyles.links}>
                             <div className={desktopStyles.codeLinks}>
                                 <p>Github</p>
-                                <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank" ><BsGithub size={35} /></Link>
+                                <Link href='https://github.com/hannahf86/isaac-cardow' target="_blank" ><BsGithub size={35} /></Link>
                                 </div>
                                 <div className={desktopStyles.codeLinks}>
                                 <p>Live Site</p>
-                                <Link href='https://github.com/hannahf86/isaac-guitar' target="_blank"><CgWebsite size={35}  /></Link>
+                                <Link href='https://www.isaaccardow.com/' target="_blank"><CgWebsite size={35}  /></Link>
                                 </div>
                         </div>
                     </div>
@@ -260,20 +257,23 @@ const Projects: React.FC = () => {
 
                 <div id='project-03' className={desktopStyles.desktopProjectBox}>
                     <Image src={examTracks} alt='Exam Tracks' className={desktopStyles.desktopImage} />
-                    <h3 className={desktopStyles.projectTitle}>Exam Tracks</h3>
+                    <h3 className={desktopStyles.projectTitle}>Admin Dashboard</h3>
                     <div>
                         <h3 className={desktopStyles.challengeText}>The Challenge</h3>
-                        <p className={desktopStyles.projectDescription}>Whilst working as an instrumental music teacher, I find it frustrating when choosing pieces for students to
-                            learn and having to flip through different PDFs for exam boards and audio tracks on Spotify or YouTube before we can choose a piece. <br /><br />
-                            I decided to use Spotify and YouTube's APIs to keep all this information in one place.</p>
-                        <h4 className={desktopStyles.skills}>React, Next.js 13, Tailwind, YouTube API</h4>
+                        <p className={desktopStyles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI
+</p>
+                        <h4 className={desktopStyles.skills}>React, Create React App, Material UI, Bootstrap</h4>
 
                         <div id='github-link' className={desktopStyles.links}>
                             <div className={desktopStyles.codeLinks}>
                                 <p>Github</p>
-                                 <Link href='https://github.com/hannahf86/exam-tracks' target="_blank" ><BsGithub size={35} /></Link>
+                                 <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={35} /></Link>
+                            </div>
+
+                            <div className={desktopStyles.codeLinks}>
+                            <p>Live Site</p>
+                                 <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
                                  </div>
-                            {/* <Link href='https://github.com/hannahf86/exam-tracks' target="_blank"><CgWebsite size={35} /></Link> */}
                         </div>
                     </div>
                 </div>
