@@ -93,7 +93,9 @@ const Projects: React.FC = () => {
                     <h3 className={styles.projectTitle}>Admin Dashboard</h3>
                     <div>
                         <h3 className={styles.challengeText}>The Challenge</h3>
-                        <p className={styles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI</p>
+                        <p className={styles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI.<br /><br />
+                        I had seen some interesting tutorials and articles using Material UI, along with some libraries I had not heard of, which included Novi and Full Calendar.
+                        I was keen to learn these packages as I felt I could reuse them in future projects.</p>
                         <h4 className={styles.projectSkills}>React, Create React App, Material UI, Bootstrap</h4>
                         <div id='github-link' className={desktopStyles.links}>
                             <div className={styles.codeLinks}>
@@ -183,7 +185,9 @@ const Projects: React.FC = () => {
                     <h3 className={tabletStyles.tabletProjectTitle}>Admin Dashboard</h3>
                     <div>
                         <h3 className={tabletStyles.challengeText}>The Challenge</h3>
-                        <p className={tabletStyles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI</p>
+                        <p className={tabletStyles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI.<br /><br />
+                        I had seen some interesting tutorials and articles using Material UI, along with some libraries I had not heard of, which included Novi and Full Calendar.
+                        I was keen to learn these packages as I felt I could reuse them in future projects.</p>
                         <h4 className={tabletStyles.skills}>React, Create React App, Material UI, Bootstrap</h4>
 
                         <div id='github-link' className={desktopStyles.links}>
@@ -272,26 +276,31 @@ const Projects: React.FC = () => {
                 </div>
 
                 <div id='project-02' className={desktopStyles.desktopProjectBox}>
-                    <Image src={dashboard} alt='Admin Dashboard' className={desktopStyles.desktopImage} />
+                    <Image src={dashboard} alt='dbt app' className={desktopStyles.desktopImage} />
                     <h3 className={desktopStyles.projectTitle}>Admin Dashboard</h3>
                     <div>
                         <h3 className={desktopStyles.challengeText}>The Challenge</h3>
-                        <p className={desktopStyles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI.</p>
-                        <h4 className={desktopStyles.skills}>React, Create React App, Material UI, Bootstrap</h4>
+                        <p className={desktopStyles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI.<br /><br />
+                        I had seen some interesting tutorials and articles using Material UI, along with some libraries I had not heard of, which included Novi and Full Calendar.
+                        I was keen to learn these packages as I felt I could reuse them in future projects.
+                        </p>
+                        <h4 className={desktopStyles.skills}>React, React-Router-DOM, Vite, Custom CSS, Node.js</h4>
 
                         <div id='github-link' className={desktopStyles.links}>
                             <div className={desktopStyles.codeLinks}>
                                 <p>Github</p>
-                                 <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={35} /></Link>
+                                <Link href='https://github.com/hannahf86/childcare-invoice-generator/blob/main/README.md' target="_blank" ><BsGithub size={35} /></Link>
                             </div>
 
                             <div className={desktopStyles.codeLinks}>
-                            <p>Live Site</p>
-                                 <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
-                                 </div>
+                                <p>Live Site</p>
+                                <Link href='https://childcare-invoice-generator-rojzbb57g-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+            
 
                 <div id='project-03' className={desktopStyles.desktopProjectBox}>
                     <Image src={isaac} alt='Website for classical guitarist, Isaac Cardow' className={desktopStyles.desktopImage} />
