@@ -297,7 +297,7 @@ const Projects: React.FC = () => {
 
                             <div className={desktopStyles.codeLinks}>
                                 <p>Live Site</p>
-                                <Link href='https://childcare-invoice-generator-rojzbb57g-hannah-feehans-projects.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
+                                <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
                             </div>
                         </div>
                     </div>
