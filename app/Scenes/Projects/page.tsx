@@ -27,6 +27,7 @@ const Projects: React.FC = () => {
         projectSkills: 'my-4 text-sm text-gray-500',
         links: 'flex flex-row justify-center ',
         codeLinks: 'text-[#F97316] flex flex-col items-center mx-auto',
+        uiuxContainter: 'mx-8',
     }
 
     const tabletStyles = {
@@ -51,6 +52,7 @@ const Projects: React.FC = () => {
         skills: 'col-start-2 row-start-3 text-md font-light text-gray-500 mb-6 ',
         links: 'col-start-2 row-start-4 flex justify-start items-end mb-4',
         codeLinks: 'text-[#F97316] flex flex-col items-center mr-12',
+        uiuxButton: 'bg-[#F97316] p-2 rounded-lg text-white font-bold mt-4'
     }
 
     return (
@@ -149,6 +151,11 @@ const Projects: React.FC = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className={styles.uiuxContainter}>
+                    <p>For my UI/UX portfolio, please follow this link...</p>
+                    <Link href='https://hannahbullickdesigns.wordpress.com/' target="_blank" ><button className={desktopStyles.uiuxButton}>UI/UX this way</button></Link>
+                </div>
             </div>
 
 
@@ -244,6 +251,10 @@ const Projects: React.FC = () => {
                     </div>
                 </div>
 
+                <div>
+                    <p>For my UI/UX portfolio, please follow this link...</p>
+                    <Link href='https://hannahbullickdesigns.wordpress.com/' target="_blank" ><button className={desktopStyles.uiuxButton}>UI/UX this way</button></Link>
+                </div>
             </div>
 
 
@@ -346,6 +357,11 @@ const Projects: React.FC = () => {
                             {/* <Link href='#' target="_blank"><CgWebsite size={35}  /></Link> */}
                         </div>
                     </div>
+                </div>
+
+                <div>
+                    <p>For my UI/UX portfolio, please follow this link...</p>
+                    <Link href='https://hannahbullickdesigns.wordpress.com/' target="_blank" ><button className={desktopStyles.uiuxButton}>UI/UX this way</button></Link>
                 </div>
             </div>
 
