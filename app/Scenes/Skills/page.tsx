@@ -49,7 +49,8 @@ const Skills: React.FC = () => {
     return (
         <div id='skills' className='bg-[#213251] w-full'>
             <h1 className={styles.title}>SKILLS</h1>
-            <p className={styles.description}>Below is a list of the main languages, frameworks, databases, and others, that I work in.</p>
+            <p className={styles.description}>My primary stack is MERN. I love working with component based code.<br /><br />
+                Below is a list of all languages, frameworks, databases, and others, that I can work in.</p>
 
             {/* TO ADD >> postgres, git */}
 
@@ -89,8 +90,8 @@ const Skills: React.FC = () => {
                 <h2 className={styles.skillTitle}>Design Tools</h2>
                 <div className={styles.languagesContainer}>
                     <div className='col-start-1'><Image src={adobe} alt='adobe logo' width={80} /></div>
-                    <div className='col-start-2'><Image src={zeplin} alt='zeplin logo' width={80} /></div>
                     <div className='col-start-3'><Image src={figma} alt='figma logo' width={80} /></div>
+                    <div className='col-start-2'><Image src={zeplin} alt='zeplin logo' width={80} /></div>
                 </div>
             </div>
 
@@ -129,8 +130,8 @@ const Skills: React.FC = () => {
                 <h2 className={tabletStyles.skillTitle}>Design Tools</h2>
                 <div className={tabletStyles.languagesContainer}>
                     <div className='col-start-1'><Image src={adobe} alt='adobe creative suite logo' width={120} /></div>
-                    <div className='col-start-2'><Image src={zeplin} alt='zeplin logo' width={120} /></div>
-                    <div className='col-start-3'><Image src={figma} alt='figma logo' width={120} /></div>
+                    <div className='col-start-2'><Image src={figma} alt='figma logo' width={120} /></div>
+                    <div className='col-start-3'><Image src={zeplin} alt='zeplin logo' width={120} /></div>
                 </div>
             </div>
 
@@ -174,8 +175,8 @@ const Skills: React.FC = () => {
                         <h2 className={desktopStyles.skillTitle}>Design Tools</h2>
                         <div className={desktopStyles.languagesContainer}>
                             <div className='col-start-1'><Image src={adobe} alt='adobe creative suite logo' width={100} /></div>
-                            <div className='col-start-2'><Image src={zeplin} alt='zeplin logo' width={100} /></div>
-                            <div className='col-start-3'><Image src={figma} alt='figma logo' width={100} /></div>
+                            <div className='col-start-2'><Image src={figma} alt='figma logo' width={100} /></div>
+                            <div className='col-start-3'><Image src={zeplin} alt='zeplin logo' width={100} /></div>
                         </div>
                     </div>
                 </div>

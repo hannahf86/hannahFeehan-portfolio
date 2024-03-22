@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // IMAGES
-import dashboard from '@/app/Assets/dashboard.png'
+import mpa from '@/app/Assets/mpa.png'
 import pfMusic from '@/app/Assets/pfMusicPubs.png';
 import isaac from '@/app/Assets/IsaacWebsite.png'
 import cig from '@/app/Assets/childcareInvoiceGenerator.png'
@@ -91,25 +91,24 @@ const Projects: React.FC = () => {
                 </div>
 
                 <div id='project-02' className={styles.projectBox}>
-                    <Image src={dashboard} alt='Admin Dashboard' className={styles.projectImage} />
-                    <h3 className={styles.projectTitle}>Admin Dashboard</h3>
+                    <Image src={mpa} alt='Admin Dashboard' className={styles.projectImage} />
+                    <h3 className={styles.projectTitle}>Music Practice App</h3>
                     <div>
                         <h3 className={styles.challengeText}>The Challenge</h3>
-                        <p className={styles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI.<br /><br />
-                        I had seen some interesting tutorials and articles using Material UI, along with some libraries I had not heard of, which included Novi and Full Calendar.
-                        I was keen to learn these packages as I felt I could reuse them in future projects.</p>
-                        <h4 className={styles.projectSkills}>React, Create React App, Material UI, Bootstrap, Custom CSS, TailwindCSS Shades, Nivo, Formik, Yup, 
-                        Full Calendar, React Icons</h4>
+                        <p className={styles.projectDescription}>To create an app that would allow music teachers to set weekly practice routines for their 
+                            students, whilst maintaining customisation and flexibility without placing restrictions that would have implications on how the teacher 
+                            conducts their lesson.</p>
+                        <h4 className={styles.projectSkills}>MERN - MongoDB Atlas, Express, React and Node.js with React Icons, Nodemon, CORS, Mongoose</h4>
                         <div id='github-link' className={desktopStyles.links}>
                             <div className={styles.codeLinks}>
                                 <p>Github</p>
-                                 <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={35} /></Link>
+                                 <Link href='https://github.com/hannahf86/music-practice-app' target="_blank" ><BsGithub size={35} /></Link>
                             </div>
 
-                            <div className={styles.codeLinks}>
+                            {/* <div className={styles.codeLinks}>
                             <p>Live Site</p>
                                  <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
-                                 </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -189,26 +188,25 @@ const Projects: React.FC = () => {
                 </div>
 
                 <div id='project-02' className={tabletStyles.tabletProjectBox}>
-                    <Image src={dashboard} alt='Admin Dashboard' className={tabletStyles.tabletImage} />
-                    <h3 className={tabletStyles.tabletProjectTitle}>Admin Dashboard</h3>
+                    <Image src={mpa} alt='Admin Dashboard' className={tabletStyles.tabletImage} />
+                    <h3 className={tabletStyles.tabletProjectTitle}>Music Practice App</h3>
                     <div>
                         <h3 className={tabletStyles.challengeText}>The Challenge</h3>
-                        <p className={tabletStyles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI.<br /><br />
-                        I had seen some interesting tutorials and articles using Material UI, along with some libraries I had not heard of, which included Novi and Full Calendar.
-                        I was keen to learn these packages as I felt I could reuse them in future projects.</p>
-                        <h4 className={tabletStyles.skills}>React, Create React App, Material UI, Bootstrap, Custom CSS, TailwindCSS Shades, Nivo, Formik, Yup, 
-                        Full Calendar, React Icons</h4>
+                        <p className={tabletStyles.projectDescription}>To create an app that would allow music teachers to set weekly practice routines for 
+                            their students, whilst maintaining customisation and flexibility without placing restrictions that would have implications on how 
+                            the teacher conducts their lesson.</p>
+                        <h4 className={styles.projectSkills}>MERN - MongoDB Atlas, Express, React and Node.js with React Icons, Nodemon, CORS, Mongoose</h4>
 
                         <div id='github-link' className={desktopStyles.links}>
                             <div className={tabletStyles.codeLinks}>
                                 <p>Github</p>
-                                 <Link href='https://github.com/hannahf86/dashboard' target="_blank" ><BsGithub size={35} /></Link>
+                                 <Link href='https://github.com/hannahf86/music-practice-app' target="_blank" ><BsGithub size={35} /></Link>
                             </div>
 
-                            <div className={tabletStyles.codeLinks}>
+                            {/* <div className={tabletStyles.codeLinks}>
                             <p>Live Site</p>
                                  <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
-                                 </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -289,27 +287,26 @@ const Projects: React.FC = () => {
                 </div>
 
                 <div id='project-02' className={desktopStyles.desktopProjectBox}>
-                    <Image src={dashboard} alt='dbt app' className={desktopStyles.desktopImage} />
-                    <h3 className={desktopStyles.projectTitle}>Admin Dashboard</h3>
+                    <Image src={mpa} alt='dbt app' className={desktopStyles.desktopImage} />
+                    <h3 className={desktopStyles.projectTitle}>Music Practice App</h3>
                     <div>
                         <h3 className={desktopStyles.challengeText}>The Challenge</h3>
-                        <p className={desktopStyles.projectDescription}>To create a web application that would push my knowledge and skills with Material UI.<br /><br />
-                        I had seen some interesting tutorials and articles using Material UI, along with some libraries I had not heard of, which included Novi and Full Calendar.
-                        I was keen to learn these packages as I felt I could reuse them in future projects.
+                        <p className={desktopStyles.projectDescription}>To create an app that would allow music teachers to set weekly practice routines for 
+                            their students, whilst maintaining customisation and flexibility without placing restrictions that would have implications on how the 
+                            teacher conducts their lesson.
                         </p>
-                        <h4 className={desktopStyles.skills}>React, Create React App, Material UI, Bootstrap, Custom CSS, TailwindCSS Shades, Nivo, Formik, 
-                        Yup, Full Calendar, React Icons</h4>
+                        <h4 className={desktopStyles.skills}>MERN - MongoDB Atlas, Express, React and Node.js with React Icons, Nodemon, CORS, Mongoose</h4>
 
                         <div id='github-link' className={desktopStyles.links}>
                             <div className={desktopStyles.codeLinks}>
                                 <p>Github</p>
-                                <Link href='https://github.com/hannahf86/childcare-invoice-generator/blob/main/README.md' target="_blank" ><BsGithub size={35} /></Link>
+                                <Link href='https://github.com/hannahf86/music-practice-app' target="_blank" ><BsGithub size={35} /></Link>
                             </div>
 
-                            <div className={desktopStyles.codeLinks}>
+                            {/* <div className={desktopStyles.codeLinks}>
                                 <p>Live Site</p>
                                 <Link href='https://dashboard-theta-dun.vercel.app/' target="_blank"><CgWebsite size={35} /></Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
