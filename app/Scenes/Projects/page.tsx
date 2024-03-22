@@ -154,7 +154,7 @@ const Projects: React.FC = () => {
 
                 <div className={styles.uiuxContainter}>
                     <p>For my UI/UX portfolio, please follow this link...</p>
-                    <Link href='https://hannahbullickdesigns.wordpress.com/' target="_blank" ><button className={desktopStyles.uiuxButton}>UI/UX this way</button></Link>
+                    <Link href='https://hannahfeehandesigns.wordpress.com/' target="_blank" ><button className={desktopStyles.uiuxButton}>UI/UX this way</button></Link>
                 </div>
             </div>
 
@@ -253,7 +253,7 @@ const Projects: React.FC = () => {
 
                 <div>
                     <p>For my UI/UX portfolio, please follow this link...</p>
-                    <Link href='https://hannahbullickdesigns.wordpress.com/' target="_blank" ><button className={desktopStyles.uiuxButton}>UI/UX this way</button></Link>
+                    <Link href='hhttps://hannahfeehandesigns.wordpress.com/' target="_blank" ><button className={desktopStyles.uiuxButton}>UI/UX this way</button></Link>
                 </div>
             </div>
 
@@ -361,7 +361,7 @@ const Projects: React.FC = () => {
 
                 <div>
                     <p>For my UI/UX portfolio, please follow this link...</p>
-                    <Link href='https://hannahbullickdesigns.wordpress.com/' target="_blank" ><button className={desktopStyles.uiuxButton}>UI/UX this way</button></Link>
+                    <Link href='https://hannahfeehandesigns.wordpress.com/' target="_blank" ><button className={desktopStyles.uiuxButton}>UI/UX this way</button></Link>
                 </div>
             </div>
 
