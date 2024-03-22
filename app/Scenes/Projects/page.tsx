@@ -92,7 +92,7 @@ const Projects: React.FC = () => {
 
                 <div id='project-02' className={styles.projectBox}>
                     <Image src={mpa} alt='Admin Dashboard' className={styles.projectImage} />
-                    <h3 className={styles.projectTitle}>Music Practice App</h3>
+                    <h3 className={styles.projectTitle}>Music Practice App - CURRENT PROJECT</h3>
                     <div>
                         <h3 className={styles.challengeText}>The Challenge</h3>
                         <p className={styles.projectDescription}>To create an app that would allow music teachers to set weekly practice routines for their 
@@ -191,7 +191,7 @@ const Projects: React.FC = () => {
                     <Image src={mpa} alt='Admin Dashboard' className={tabletStyles.tabletImage} />
                     <h3 className={tabletStyles.tabletProjectTitle}>Music Practice App</h3>
                     <div>
-                        <h3 className={tabletStyles.challengeText}>The Challenge</h3>
+                        <h3 className={tabletStyles.challengeText}>The Challenge - CURRENT PROJECT</h3>
                         <p className={tabletStyles.projectDescription}>To create an app that would allow music teachers to set weekly practice routines for 
                             their students, whilst maintaining customisation and flexibility without placing restrictions that would have implications on how 
                             the teacher conducts their lesson.</p>
@@ -290,7 +290,7 @@ const Projects: React.FC = () => {
                     <Image src={mpa} alt='dbt app' className={desktopStyles.desktopImage} />
                     <h3 className={desktopStyles.projectTitle}>Music Practice App</h3>
                     <div>
-                        <h3 className={desktopStyles.challengeText}>The Challenge</h3>
+                        <h3 className={desktopStyles.challengeText}>The Challenge - CURRENT PROJECT</h3>
                         <p className={desktopStyles.projectDescription}>To create an app that would allow music teachers to set weekly practice routines for 
                             their students, whilst maintaining customisation and flexibility without placing restrictions that would have implications on how the 
                             teacher conducts their lesson.
