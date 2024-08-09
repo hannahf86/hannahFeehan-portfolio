@@ -471,8 +471,10 @@ const Projects: React.FC = () => {
           <div>
             <h3 className={desktopStyles.challengeText}>The Challenge</h3>
             <p className={desktopStyles.projectDescription}>
-              To design a website using animation for a new web development
-              agency.
+              I was asked to design and build an engaging and modern website for
+              a web development company. They wanted to incorporate animation
+              effects with the navigation and on their landing page, as well as
+              having relevant call to action points.
             </p>
             <h4 className={desktopStyles.skills}>
               React with Vite, TailwindCSS, Framer Motion, React Icons, Emailjs,
