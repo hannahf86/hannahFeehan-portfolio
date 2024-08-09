@@ -467,7 +467,9 @@ const Projects: React.FC = () => {
             alt="jorvik web dev website"
             className={desktopStyles.desktopImage}
           />
-          <h3 className={desktopStyles.projectTitle}>Music Practice App</h3>
+          <h3 className={desktopStyles.projectTitle}>
+            Development Agency Website
+          </h3>
           <div>
             <h3 className={desktopStyles.challengeText}>The Challenge</h3>
             <p className={desktopStyles.projectDescription}>
