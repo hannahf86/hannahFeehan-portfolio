@@ -4,8 +4,8 @@ import Link from "next/link";
 
 // IMAGES
 import jwd from "@/app/Assets/jwd.png";
-import pfMusic from "@/app/Assets/pfMusicPubs.png";
-import isaac from "@/app/Assets/IsaacWebsite.png";
+import cms from "@/app/Assets/cms.png";
+import isaac from "@/app/Assets/isaac.png";
 import cig from "@/app/Assets/childcareInvoiceGenerator.png";
 
 // ICONS
@@ -95,7 +95,7 @@ const Projects: React.FC = () => {
             </p>
           </div>
           <div id="project-skills" className={styles.projectSkills}>
-            <p>React, React-Router-Dom, Vite, Custom CSS, Node.js</p>
+            <p>React, React-Router-Dom, Vite, Custom CSS, Node.js, Git</p>
           </div>
           <div id="github-link" className={tabletStyles.links}>
             <div className={styles.codeLinks}>
@@ -133,7 +133,7 @@ const Projects: React.FC = () => {
             </p>
             <h4 className={styles.projectSkills}>
               React with Vite, TailwindCSS, Framer Motion, React Icons, Emailjs,
-              React Hot Toast
+              React Hot Toast, Git
             </h4>
             <div id="github-link" className={desktopStyles.links}>
               <div className={styles.codeLinks}>
@@ -173,7 +173,7 @@ const Projects: React.FC = () => {
               sizes, including a self-made accordion news section for mobile.
             </p>
             <h4 className={styles.projectSkills}>
-              React, Next.js 13, Tailwind, EmailJS, Node.js
+              React, Next.js 13, Tailwind, EmailJS, Node.js, Git
             </h4>
             <div id="github-link" className={desktopStyles.links}>
               <div className={styles.codeLinks}>
@@ -196,27 +196,29 @@ const Projects: React.FC = () => {
 
         <div id="project-04" className={styles.projectBox}>
           <Image
-            src={pfMusic}
-            alt="PF Publishing app display"
+            src={cms}
+            alt="Jorvik Web Dev Client Management System"
             className={styles.projectImage}
           />
-          <h3 className={styles.projectTitle}>PF Music Publishing</h3>
+          <h3 className={styles.projectTitle}>Client Management System</h3>
           <div>
             <h3 className={styles.challengeText}>
               The Challenge - IN PROGRESS
             </h3>
             <p className={styles.projectDescription}>
-              I have been asked by a local musician and composer, to design and
-              build a fullstack e-commerce website for their business.
+              I have been asked to create a simple but custom client management
+              system for Jorvik Web Dev. As a new company, they want to keep
+              their outsourciing costs low, but still need to track the progress
+              of their clients projects.
               <br />
-              <br />
-              This includes a new brand identity, all graphics used in the
-              project, as well as some social media management for YouTube and
-              Instagram.
+              <br />I used my knowledge of UX research, user journeys and UI
+              design to begin creating an uncomplicated, yet effective system to
+              help JWD meet their goals.
             </p>
             <h4 className={styles.projectSkills}>
-              React, Next.js 13, Tailwind, PrismaORM, Stripe integration, User
-              Authentication, Google Cloud Development, Postgres SQL
+              React, Vite, Strapi Headless CMS, GraphQL & Apollo, TailwindCSS
+              with custom properties, User Authentication, Rest APIs, Node.js,
+              React Icons, React Hot Toast and Git
             </h4>
             <div className={styles.codeLinks}>
               <p>Github</p>
@@ -368,30 +370,28 @@ const Projects: React.FC = () => {
         </div>
 
         <div id="project-04" className={tabletStyles.tabletProjectBox}>
-          <Image
-            src={pfMusic}
-            alt="dbt app"
-            className={tabletStyles.tabletImage}
-          />
+          <Image src={cms} alt="dbt app" className={tabletStyles.tabletImage} />
           <h3 className={tabletStyles.tabletProjectTitle}>
-            PF Music Publishing
+            Client Management System
           </h3>
           <div>
             <h3 className={tabletStyles.challengeText}>
               The Challenge - IN PROGRESS
             </h3>
             <p className={tabletStyles.projectDescription}>
-              I have been asked by a local musician and composer, to design and
-              build a fullstack e-commerce website for their business.
+              I have been asked to create a simple but custom client management
+              system for Jorvik Web Dev. As a new company, they want to keep
+              their outsourciing costs low, but still need to track the progress
+              of their clients projects.
               <br />
-              <br />
-              This includes a new brand identity, all graphics used in the
-              project, as well as some social media management for YouTube and
-              Instagram.
+              <br />I used my knowledge of UX research, user journeys and UI
+              design to begin creating an uncomplicated, yet effective system to
+              help JWD meet their goals.
             </p>
             <h4 className={tabletStyles.skills}>
-              React, Next.js 13, Tailwind, PrismaORM, Stripe integration, User
-              Authentication, Google Cloud Development, Postgres SQL
+              React, Vite, Strapi Headless CMS, GraphQL & Apollo, TailwindCSS
+              with custom properties, User Authentication, Rest APIs, Node.js,
+              React Icons, React Hot Toast and Git
             </h4>
             <div className={tabletStyles.codeLinks}>
               <p>Github</p>
@@ -547,24 +547,31 @@ const Projects: React.FC = () => {
 
         <div id="project-04" className={desktopStyles.desktopProjectBox}>
           <Image
-            src={pfMusic}
-            alt="PF Music Publishing"
+            src={cms}
+            alt="Jorvik Web Dev Client Management System"
             className={desktopStyles.desktopImage}
           />
-          <h3 className={desktopStyles.projectTitle}>PF Music Publishing</h3>
+          <h3 className={desktopStyles.projectTitle}>
+            Client Management System
+          </h3>
           <div>
             <h3 className={desktopStyles.challengeText}>
               The Challenge - IN PROGRESS
             </h3>
             <p className={desktopStyles.projectDescription}>
-              I have been asked by a local musician and composer, to design and
-              build a fullstack e-commerce website for their business. This
-              includes a new brand identity, all graphics used in the project,
-              as well as some social media management for YouTube and Instagram.
+              I have been asked to create a simple but custom client management
+              system for Jorvik Web Dev. As a new company, they want to keep
+              their outsourciing costs low, but still need to track the progress
+              of their clients projects.
+              <br />
+              <br />I used my knowledge of UX research, user journeys and UI
+              design to begin creating an uncomplicated, yet effective system to
+              help JWD meet their goals.
             </p>
             <h4 className={desktopStyles.skills}>
-              React, Next.js 13, Tailwind, PrismaORM, Stripe integration, User
-              Authentication, Google Cloud Development, Postgres SQL
+              React, Vite, Strapi Headless CMS, GraphQL & Apollo, TailwindCSS
+              with custom properties, User Authentication, Rest APIs, Node.js,
+              React Icons, React Hot Toast and Git
             </h4>
 
             <div id="github-link" className={desktopStyles.links}>
