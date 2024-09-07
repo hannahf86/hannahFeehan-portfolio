@@ -5,7 +5,7 @@ import React from "react";
 import { useState, useRef } from "react";
 
 // LIBRARIES
-import toast from "react-hot-toast";
+import toast, { Toaster } from "react-hot-toast";
 import emailjs from "@emailjs/browser";
 
 // COMPONENTS
